@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Viele Random-Walker auf dem freien Cluster mit Nahrung (2D)}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Interaktion der Random-Walker}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Klassischer gegen sukzessiver Algorithmus}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Auftreten eines streng subdiffusiven Regimes}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Fraktale Dimension der Nahrungsverteilung}{5}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Die Box-Counting-Methode}{5}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Ergebnisse der Box-Counting Analyse}{6}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Nahrungsvorrat}{7}{subsubsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}Vergröberte Dichtekorrelation der Walker}{8}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Selbstkorrelation}{9}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Korrelation mit benachbarten Blöcken}{11}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}Autokorrelation der Schritte}{12}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}'Fressspuren als Wände'}{14}{subsection.1.7}%
+\contentsline {subsubsection}{\numberline {1.7.1}Minimalmodel eines Walkers auf einem Nahrungsquadrat}{14}{subsubsection.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.7.2}Einzelner Walker auf der Nahrungsmatrix bei fixem Startpunkt}{17}{subsubsection.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.7.3}Einzelner Walker auf der Nahrungsmatrix mit disorder-average}{19}{subsubsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.8}Unterschiedliche Walkerdichten und ihr Effekt auf die Dynamik}{21}{subsection.1.8}%
+\contentsline {section}{\numberline {2}Eindimensionales Modell}{23}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Mean Squared Displacement}{23}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Autokorrelation der Schritte im eindimensionalen Modell}{24}{subsection.2.2}%

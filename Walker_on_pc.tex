@@ -1,0 +1,33 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{braket}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{float} 
+\usepackage{lmodern}
+
+\author{Sebastian Steinhäuser}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+\section{Viele Random-Walker auf dem perkolierenden Cluster mit Nahrung (2D)}
+In diesem Kapitel wird die Dynamik vieler 'hungriger' Random Walker auf dem perkolierenden Cluster untersucht. Es wird also das 'Clearing out a Maze' Paper auf viele Walker erweitert. Wie zuvor besteht zwischen den Walkern keine direkte Interaktion, sondern nur indirekt über 'wegfressen' der Nahrung.
+\\
+\noindent Auf dem freien Cluster wurde gefunden, dass die Dynamik nach einem superdiffusiven Regime zu Beginn in ein streng subdiffusives Regime wechselt (d.h. der Diffusionsexponent $2\nu$ ist kleiner 1 und das $msd$ liegt unter dem der freien Diffusion). Das $msd$ nähert sich also auf lange Zeiten dem der freien Diffusion ($F=0$) von unten an.
+\\
+\noindent Auf dem perkolierenden Cluster gibt es zwei Vergleichskurven, der einzelne Walker mit Nahrung auf dem perkolierenden Cluster ('Clearing out a Maze') und der Fall $F=0$ also die anormale Diffusion auf dem perkolierenden Cluster ($\nu \approx 0.347$ in zwei Raumdimensionen).
+\\
+\noindent Zu beachten ist, dass der perkolierende Cluster immer unterschiedlich groß ist und daher unterschiedlich viele Walker für die gleiche Dichte benötigt werden. Hier wird bei der so errechneten Anzahl der Walker immer abgerundet (mittels der int()-Funktion in Python3).
+
+\subsection{Chemische Distanz}
+Die chemische Distanz zwischen Gitterplatz $a$ und Gitterplatz $b$ bezeichnet die minimale Anzahl Schritte um (auf erlaubtem Wege) von $a$ nach $b$ zu kommen. Diese chemische Distanz kann auf dem perkolierenden Cluster offenbar stark von der Euklidischen Distanz abweichen. Es müsste somit auf dem perkolierenden Cluster überall mit der chemischen Distanz gearbeitet werden. Daher wird auf die räumlichen Dichtekorrelationsfunktionen verzichtet, denn es gibt keine klare Methode dazu, wie man den perkolierenden Cluster in Blöcke mit eindeutigem chemischen Abstand von einander teilt.
+
+\end{document}

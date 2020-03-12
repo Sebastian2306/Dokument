@@ -1,0 +1,144 @@
+% Encoding: UTF-8
+
+@Article{doi:10.1063/1.1699114,
+  author  = {Metropolis,Nicholas and Rosenbluth,Arianna W. and Rosenbluth,Marshall N. and Teller,Augusta H. and Teller,Edward},
+  title   = {Equation of State Calculations by Fast Computing Machines},
+  journal = {The Journal of Chemical Physics},
+  year    = {1953},
+  volume  = {21},
+  number  = {6},
+  pages   = {1087-1092},
+  doi     = {10.1063/1.1699114},
+  eprint  = {https://doi.org/10.1063/1.1699114},
+  url     = { 
+        https://doi.org/10.1063/1.1699114
+    
+},
+}
+
+@Book{Krauth,
+  title     = {Statistical Mechanics Algorithms and Computations},
+  publisher = {Oxford University Press},
+  year      = {2006},
+  author    = {Werner Krauth},
+}
+
+@Article{doi:10.1063/1.4999485,
+  author  = {Schilling,Tanja and Voigtmann,Thomas},
+  title   = {Clearing out a maze: A model of chemotactic motion in porous media},
+  journal = {The Journal of Chemical Physics},
+  year    = {2017},
+  volume  = {147},
+  number  = {21},
+  pages   = {214905},
+  doi     = {10.1063/1.4999485},
+  eprint  = {https://doi.org/10.1063/1.4999485},
+  url     = { 
+        https://doi.org/10.1063/1.4999485
+    
+},
+}
+
+@Article{Atashpendar_2016,
+  author    = {Arshia Atashpendar and Tanja Schilling and Thomas Voigtmann},
+  title     = {Sequencing chess},
+  journal   = {{EPL} (Europhysics Letters)},
+  year      = {2016},
+  volume    = {116},
+  number    = {1},
+  pages     = {10009},
+  month     = {oct},
+  abstract  = {We analyze the structure of the state space of chess by means of transition path sampling Monte Carlo simulations. Based on the typical number of moves required to transpose a given configuration of chess pieces into another, we conclude that the state space consists of several pockets between which transitions are rare. Skilled players explore an even smaller subset of positions that populate some of these pockets only very sparsely. These results suggest that the usual measures to estimate both the size of the state space and the size of the tree of legal moves are not unique indicators of the complexity of the game, but that considerations regarding the connectedness of states are equally important.},
+  doi       = {10.1209/0295-5075/116/10009},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1209%2F0295-5075%2F116%2F10009},
+}
+
+@Article{Wiki_Perkolationstheorie,
+  author = {https://de.wikipedia.org/wiki/Perkolationstheorie},
+}
+
+@Book{Stauffer,
+  title     = {Perkolationstheorie},
+  publisher = {Taylor \& Francis, London},
+  year      = {1994},
+  author    = {Dietrich Stauffer},
+}
+
+@Article{Grassberger_1993,
+  author    = {P Grassberger},
+  title     = {Monte Carlo simulation of 3D self-avoiding walks},
+  journal   = {Journal of Physics A: Mathematical and General},
+  year      = {1993},
+  volume    = {26},
+  number    = {12},
+  pages     = {2769--2776},
+  month     = {jun},
+  abstract  = {Presents simulation results for 3D self-avoiding walks of moderate length (N<or=2000), using a recently introduced recursive sampling method. It is shown that this method is indeed maximally efficient for determining the connectivity constant mu . Combining the data with previous results from exact enumerations and from simulations of very long walks using the pivot algorithm, the author obtains very precise estimates of mu and of the critical exponents gamma and nu . He also points out significant deviations from uniformity in a very popular random number generator which was considered safe until now.},
+  doi       = {10.1088/0305-4470/26/12/017},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1088%2F0305-4470%2F26%2F12%2F017},
+}
+
+@Article{Derrida_1993,
+  author    = {B Derrida and M R Evans and V Hakim and V Pasquier},
+  title     = {Exact solution of a 1D asymmetric exclusion model using a matrix formulation},
+  journal   = {Journal of Physics A: Mathematical and General},
+  year      = {1993},
+  volume    = {26},
+  number    = {7},
+  pages     = {1493--1517},
+  month     = {apr},
+  abstract  = {Several recent works have shown that the one-dimensional fully asymmetric exclusion model, which describes a system of particles hopping in a preferred direction with hard core interactions, can be solved exactly in the case of open boundaries. Here the authors present a new approach based on representing the weights of each configuration in the steady state as a product of noncommuting matrices. With this approach the whole solution of the problem is reduced to finding two matrices and two vectors which satisfy very simple algebraic rules. They obtain several explicit forms for these non-commuting matrices which are, in the general case, infinite-dimensional. Their approach allows exact expressions to be derived for the current and density profiles. Finally they discuss briefly two possible generalizations of their results: the problem of partially asymmetric exclusion and the case of a mixture of two kinds of particles.},
+  doi       = {10.1088/0305-4470/26/7/011},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1088%2F0305-4470%2F26%2F7%2F011},
+}
+
+@Article{doi:10.1063/1.462271,
+  author  = {Smit,B.},
+  title   = {Phase diagrams of Lennard‐Jones fluids},
+  journal = {The Journal of Chemical Physics},
+  year    = {1992},
+  volume  = {96},
+  number  = {11},
+  pages   = {8639-8640},
+  doi     = {10.1063/1.462271},
+  eprint  = {https://doi.org/10.1063/1.462271},
+  url     = { 
+        https://doi.org/10.1063/1.462271
+    
+},
+}
+
+@Article{Buffon,
+  author = {https://mathworld.wolfram.com/Buffon-LaplaceNeedleProblem.html},
+}
+
+@Article{Fricke,
+  author = {https://www.ocf.berkeley.edu/~fricke/projects/hoshenkopelman/hoshenkopelman.html, 21.10.2019},
+}
+
+@Article{Havlin,
+  author  = {S. Havlin and D. Ben-Avraham},
+  title   = {Diffusion in disordered media},
+  journal = {Adv. Phys.36, 695},
+  year    = {1987},
+}
+
+@Article{PhysRevLett.50.77,
+  author    = {Gefen, Yuval and Aharony, Amnon and Alexander, Shlomo},
+  title     = {Anomalous Diffusion on Percolating Clusters},
+  journal   = {Phys. Rev. Lett.},
+  year      = {1983},
+  volume    = {50},
+  pages     = {77--80},
+  month     = {Jan},
+  doi       = {10.1103/PhysRevLett.50.77},
+  issue     = {1},
+  numpages  = {0},
+  publisher = {American Physical Society},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.50.77},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
