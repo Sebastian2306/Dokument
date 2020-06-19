@@ -1,0 +1,62 @@
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Perkolation und Random-Walks in ungeordneten Medien}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Was ist Perkolation?}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Perkolation auf dem Computer}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.2.1}{Implementierung des Hoshen-Kopelmann-Algorithmus}{section.2.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.2}{Finden von gerichtet perkolierenden Clustern }{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.3}{Diagonal perkolierende Cluster}{section.2.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Die fraktale Dimension des perkolierenden Clusters}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.3.1}{Die Box-Counting-Methode}{section.2.3}% 9
+\BOOKMARK [2][-]{subsection.2.3.2}{Ergebnisse der Box-Counting Analyse}{section.2.3}% 10
+\BOOKMARK [1][-]{section.2.4}{Random-Walk in ungeordneten Medien}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.4.1}{"Normeler" Random-Walk}{section.2.4}% 12
+\BOOKMARK [2][-]{subsection.2.4.2}{Random-Walk auf dem Perkolationsgitter}{section.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.4.3}{Chemische Distanz}{section.2.4}% 14
+\BOOKMARK [2][-]{subsection.2.4.4}{'all-cluster-' und 'percolating-cluster average'}{section.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.4.5}{Vergleich der Statistik mit und ohne diagonale Perkolation}{section.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.4.6}{Random-Walk auf diagonal perkolierenden Clustern}{section.2.4}% 17
+\BOOKMARK [1][-]{section.2.5}{Spezielle Random-Walk Varianten auf dem Perkolationsgitter}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.5.1}{Self-Avoiding Walk auf dem Perkolationsgitter}{section.2.5}% 19
+\BOOKMARK [2][-]{subsection.2.5.2}{'Aktiver' Random-Walk auf dem Perkolationsgitter}{section.2.5}% 20
+\BOOKMARK [1][-]{section.2.6}{Zusammenfassung und Deutung: Aktiver Random-Walk auf perkolierendem Cluster}{chapter.2}% 21
+\BOOKMARK [0][-]{chapter.3}{Eindimensionales Modell hungriger Walker}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Mastergleichung f\374r den 1D PAC-MAN}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.1.1}{Mastergleichungen allgemein}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.2}{Markov'sche Einbettung und Mastergleichung eines 1D Walk mit Nahrung}{section.3.1}% 25
+\BOOKMARK [1][-]{section.3.2}{Kombinatorische Herangehensweise}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Erster Fall, r=x}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{Positive Random-Walks}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.3}{Zweiter Fall r>x}{section.3.2}% 29
+\BOOKMARK [1][-]{section.3.3}{\334bergangsmatrixmethode f\374r die Markov'sche Einbettung}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Definition der Schrittautokorrelationsfunktion}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.5}{Mean-Squared-Displacement und Schrittautokorrelation f\374r viele Walker}{chapter.3}% 32
+\BOOKMARK [0][-]{chapter.4}{Viele Random-Walker auf dem freien Cluster mit Nahrung \(2D\)}{}% 33
+\BOOKMARK [1][-]{section.4.1}{Interaktion der Random-Walker}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.2}{Gleichzeitiges Ziehen}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.2.1}{Mean-Squared-Displacement}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.2}{Nahrungsvorrat und Diffusionsexponent}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.3}{Dichtekorrelation der Walker}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.4}{Dichteautokorrelation}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.5}{Korrelation mit benachbarten Bl\366cken}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.6}{Autokorrelation der Schritte}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{Sukzessives Ziehen}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Mean-Squared-Displacement und Nahrungsvorrat}{section.4.3}% 43
+\BOOKMARK [1][-]{section.4.4}{Mean-Squared-Displacement bei Unterschiedlichen Walkerdichten}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.5}{Mean-Squared-Displacement mit neuem Aufpunkt}{chapter.4}% 45
+\BOOKMARK [0][-]{chapter.5}{Viele Random-Walker auf dem perkolierenden Cluster mit Nahrung \(2D\)}{}% 46
+\BOOKMARK [1][-]{section.5.1}{Simulation von 10\045 Walkerdichte auf dem perkolierenden Cluster}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.2}{Mean-Squared-Displacement bei Unterschiedlichen Walkerdichten}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.3}{Mean-Squared-Displacement auf dem perkolierenden Cluster mit neuem Aufpunkt}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter.6}{Transiente Mean-Squared-Displacements}{}% 50
+\BOOKMARK [1][-]{section.6.1}{Beispiele f\374r transiente Mean-Squared-Displacements}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.2}{Minimalmodel eines Walkers auf einem Nahrungsquadrat, echte Subdiffusion}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.3}{PAC-MAN Verhalten als unendliche Transiente}{chapter.6}% 53
+\BOOKMARK [0][-]{chapter.7}{Nachf\374llen der Nahrung}{}% 54
+\BOOKMARK [1][-]{section.7.1}{Einleitung/Idee}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.2}{Simulation bei verschiedenen Walkerdichten}{chapter.7}% 56
+\BOOKMARK [2][-]{subsection.7.2.1}{10\045 Walkerdichte}{section.7.2}% 57
+\BOOKMARK [2][-]{subsection.7.2.2}{1\045 Walkerdichte}{section.7.2}% 58
+\BOOKMARK [2][-]{subsection.7.2.3}{Vergleich}{section.7.2}% 59
+\BOOKMARK [1][-]{section.7.3}{Mehrere Auff\374llversuche pro Walker}{chapter.7}% 60
+\BOOKMARK [0][-]{chapter.8}{Zusammenfassung/Ausblick}{}% 61
+\BOOKMARK [0][-]{appendix.A}{Mathematica Notebook zum 1D Walk}{}% 62

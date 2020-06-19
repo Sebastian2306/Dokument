@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Masterarbeit_fixed.aux
+The style file: plain.bst
+Database file #1: references.bib.bib
+Warning--to sort, need author or key in Fraktal_wiki
+Warning--to sort, need author or key in Box_counting_wiki
+Warning--empty author in Fraktal_wiki
+Warning--empty journal in Fraktal_wiki
+Warning--empty year in Fraktal_wiki
+Warning--empty author in Box_counting_wiki
+Warning--empty journal in Box_counting_wiki
+Warning--empty year in Box_counting_wiki
+Warning--empty title in Wiki_Perkolationstheorie
+Warning--empty journal in Wiki_Perkolationstheorie
+Warning--empty year in Wiki_Perkolationstheorie
+Warning--empty title in Buffon
+Warning--empty journal in Buffon
+Warning--empty year in Buffon
+Warning--empty title in Fricke
+Warning--empty journal in Fricke
+Warning--empty year in Fricke
+Warning--empty journal in Goetz
+Warning--empty journal in Stoch
+Warning--empty year in Stoch
+Warning--empty journal in Rougier
+Warning--empty year in Rougier
+You've used 22 entries,
+            2118 wiz_defined-function locations,
+            629 strings with 6920 characters,
+and the built_in function-call counts, 6173 in all, are:
+= -- 574
+> -- 261
+< -- 0
++ -- 107
+- -- 84
+* -- 481
+:= -- 1053
+add.period$ -- 54
+call.type$ -- 22
+change.case$ -- 104
+chr.to.int$ -- 0
+cite$ -- 44
+duplicate$ -- 234
+empty$ -- 503
+format.name$ -- 84
+if$ -- 1232
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 23
+newline$ -- 101
+num.names$ -- 40
+pop$ -- 126
+preamble$ -- 1
+purify$ -- 86
+quote$ -- 0
+skip$ -- 145
+stack$ -- 0
+substring$ -- 388
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 86
+warning$ -- 22
+while$ -- 56
+width$ -- 24
+write$ -- 202
+(There were 22 warnings)

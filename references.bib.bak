@@ -141,4 +141,96 @@
   url       = {https://link.aps.org/doi/10.1103/PhysRevLett.50.77},
 }
 
+@Article{Kammerer_2008,
+  author    = {Axel Kammerer and Felix Höfling and Thomas Franosch},
+  title     = {Cluster-resolved dynamic scaling theory and universal corrections for transport on percolating systems},
+  journal   = {{EPL} (Europhysics Letters)},
+  year      = {2008},
+  volume    = {84},
+  number    = {6},
+  pages     = {66002},
+  month     = {dec},
+  abstract  = {For percolating systems, we propose a universal exponent relation connecting the leading corrections to scaling of the cluster size distribution with the dynamic corrections to the asymptotic transport behaviour at criticality. Our derivation is based on a cluster-resolved scaling theory unifying the scaling of both the cluster size distribution and the dynamics of a random walker. We corroborate our theoretical approach by extensive simulations for a site percolating square lattice and numerically determine both the static and dynamic correction exponents.},
+  doi       = {10.1209/0295-5075/84/66002},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1209%2F0295-5075%2F84%2F66002},
+}
+
+@Article{PhysRevLett.101.125701,
+  author    = {Blavatska, Viktoria and Janke, Wolfhard},
+  title     = {Multifractality of Self-Avoiding Walks on Percolation Clusters},
+  journal   = {Phys. Rev. Lett.},
+  year      = {2008},
+  volume    = {101},
+  pages     = {125701},
+  month     = {Sep},
+  doi       = {10.1103/PhysRevLett.101.125701},
+  issue     = {12},
+  numpages  = {4},
+  publisher = {American Physical Society},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.101.125701},
+}
+
+@Article{Fraktal_wiki,
+  title = {https://de.wikipedia.org/wiki/Fraktal},
+}
+
+@Article{Rougier,
+  author = {Nicolas P. Rougier},
+  title  = {https://gist.github.com/rougier/e5eafc276a4e54f516ed5559df4242c0},
+}
+
+@Article{Voss_1984,
+  author    = {R F Voss},
+  title     = {The fractal dimension of percolation cluster hulls},
+  journal   = {Journal of Physics A: Mathematical and General},
+  year      = {1984},
+  volume    = {17},
+  number    = {7},
+  pages     = {L373--L377},
+  month     = {may},
+  abstract  = {Large simulations of 2D site percolation on a square lattice provide several estimates of the fractal dimension Dh of the 'hull' or outer boundary of percolation clusters close to criticality. Statistical estimates based on an ensemble of more than 106 clusters with varying sizes yield Dh=1.74+or-0.02. Geometrical measurements of the hull two-point correlation for individual clusters with more than 105 sites give Dh=1.76+or-0.01. The observed scaling behaviour is the same both slightly above and below pc.},
+  doi       = {10.1088/0305-4470/17/7/001},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1088%2F0305-4470%2F17%2F7%2F001},
+}
+
+@Article{Box_counting_wiki,
+  title = {https://en.wikipedia.org/wiki/Box\_counting},
+}
+
+@Article{Goetz,
+  author = {Götz Lehmann},
+  title  = {Numerical Simulations 2 \url{https://github.com/TP1-HHU/assignments/blob/master/PDE_chapter.pdf}},
+  year   = {2020},
+}
+
+@Article{Zausch_2008,
+  author    = {J Zausch and J Horbach and M Laurati and S U Egelhaaf and J M Brader and Th Voigtmann and M Fuchs},
+  title     = {From equilibrium to steady state: the transient dynamics of colloidal liquids under shear},
+  journal   = {Journal of Physics: Condensed Matter},
+  year      = {2008},
+  volume    = {20},
+  number    = {40},
+  pages     = {404210},
+  month     = {sep},
+  abstract  = {We investigate stresses and particle motion during the start-up of flow in a colloidal
+dispersion close to arrest into a glassy state. A combination of molecular dynamics
+simulation, mode-coupling theory and confocal microscopy experiments is used to
+investigate the origins of the widely observed stress overshoot and (previously not reported)
+super-diffusive motion in the transient dynamics. A link between the macro-rheological
+stress versus strain curves and the microscopic particle motion is established. Negative
+correlations in the transient auto-correlation function of the potential stresses are found
+responsible for both phenomena, and arise even for homogeneous flows and almost
+Gaussian particle displacements.},
+  doi       = {10.1088/0953-8984/20/40/404210},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1088%2F0953-8984%2F20%2F40%2F404210},
+}
+
+@Article{Stoch,
+  author = {Matthias Löwe},
+  title  = {https://www.uni-muenster.de/Stochastik/loewe/Stochastik_BA_1Fach.pdf},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

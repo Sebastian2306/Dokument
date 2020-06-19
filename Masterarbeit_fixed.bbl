@@ -1,0 +1,112 @@
+\begin{thebibliography}{10}
+
+\bibitem{Fraktal_wiki}
+https://de.wikipedia.org/wiki/fraktal.
+
+\bibitem{Box_counting_wiki}
+https://en.wikipedia.org/wiki/box\_counting.
+
+\bibitem{Atashpendar_2016}
+Arshia Atashpendar, Tanja Schilling, and Thomas Voigtmann.
+\newblock Sequencing chess.
+\newblock {\em {EPL} (Europhysics Letters)}, 116(1):10009, oct 2016.
+
+\bibitem{PhysRevLett.101.125701}
+Viktoria Blavatska and Wolfhard Janke.
+\newblock Multifractality of self-avoiding walks on percolation clusters.
+\newblock {\em Phys. Rev. Lett.}, 101:125701, Sep 2008.
+
+\bibitem{Derrida_1993}
+B~Derrida, M~R Evans, V~Hakim, and V~Pasquier.
+\newblock Exact solution of a 1d asymmetric exclusion model using a matrix
+  formulation.
+\newblock {\em Journal of Physics A: Mathematical and General},
+  26(7):1493--1517, apr 1993.
+
+\bibitem{PhysRevLett.50.77}
+Yuval Gefen, Amnon Aharony, and Shlomo Alexander.
+\newblock Anomalous diffusion on percolating clusters.
+\newblock {\em Phys. Rev. Lett.}, 50:77--80, Jan 1983.
+
+\bibitem{Grassberger_1993}
+P~Grassberger.
+\newblock Monte carlo simulation of 3d self-avoiding walks.
+\newblock {\em Journal of Physics A: Mathematical and General},
+  26(12):2769--2776, jun 1993.
+
+\bibitem{GRASSBERGER1999251}
+Peter Grassberger.
+\newblock Conductivity exponent and backbone dimension in 2-d percolation.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  262(3):251 -- 263, 1999.
+
+\bibitem{Havlin}
+S.~Havlin and D.~Ben-Avraham.
+\newblock Diffusion in disordered media.
+\newblock {\em Adv. Phys.36, 695}, 1987.
+
+\bibitem{Wiki_Perkolationstheorie}
+https://de.wikipedia.org/wiki/Perkolationstheorie.
+
+\bibitem{Buffon}
+https://mathworld.wolfram.com/Buffon LaplaceNeedleProblem.html.
+
+\bibitem{Fricke}
+21.10.2019 https://www.ocf.berkeley.edu/
+  fricke/projects/hoshenkopelman/hoshenkopelman.html.
+
+\bibitem{Kammerer_2008}
+Axel Kammerer, Felix Höfling, and Thomas Franosch.
+\newblock Cluster-resolved dynamic scaling theory and universal corrections for
+  transport on percolating systems.
+\newblock {\em {EPL} (Europhysics Letters)}, 84(6):66002, dec 2008.
+
+\bibitem{Goetz}
+Götz Lehmann.
+\newblock Numerical simulations 2
+  \url{https://github.com/TP1-HHU/assignments/blob/master/PDE_chapter.pdf}.
+\newblock 2020.
+
+\bibitem{Stoch}
+Matthias Löwe.
+\newblock \url{https://www.uni-muenster.de/stochastik/loewe/stochastik_ba_1fach.pdf}.
+
+\bibitem{doi:10.1063/1.1699114}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
+
+\bibitem{Rougier}
+Nicolas~P. Rougier.
+\newblock https://gist.github.com/rougier/e5eafc276a4e54f516ed5559df4242c0.
+
+\bibitem{doi:10.1063/1.4999485}
+Tanja Schilling and Thomas Voigtmann.
+\newblock Clearing out a maze: A model of chemotactic motion in porous media.
+\newblock {\em The Journal of Chemical Physics}, 147(21):214905, 2017.
+
+\bibitem{doi:10.1063/1.462271}
+B.~Smit.
+\newblock Phase diagrams of lennard‐jones fluids.
+\newblock {\em The Journal of Chemical Physics}, 96(11):8639--8640, 1992.
+
+\bibitem{Stauffer}
+Dietrich Stauffer.
+\newblock {\em Perkolationstheorie}.
+\newblock Taylor \& Francis, London, 1994.
+
+\bibitem{Voss_1984}
+R~F Voss.
+\newblock The fractal dimension of percolation cluster hulls.
+\newblock {\em Journal of Physics A: Mathematical and General},
+  17(7):L373--L377, may 1984.
+
+\bibitem{Zausch_2008}
+J~Zausch, J~Horbach, M~Laurati, S~U Egelhaaf, J~M Brader, Th~Voigtmann, and
+  M~Fuchs.
+\newblock From equilibrium to steady state: the transient dynamics of colloidal
+  liquids under shear.
+\newblock {\em Journal of Physics: Condensed Matter}, 20(40):404210, sep 2008.
+
+\end{thebibliography}
