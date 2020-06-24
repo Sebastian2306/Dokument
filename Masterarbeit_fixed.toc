@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Die Box-Counting-Methode}{13}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Ergebnisse der Box-Counting Analyse}{15}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Random-Walk in ungeordneten Medien}{15}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}"Normeler"\ Random-Walk}{15}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}"Normaler"\ Random-Walk}{15}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Random-Walk auf dem Perkolationsgitter}{16}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Chemische Distanz}{17}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}'all-cluster-' und 'percolating-cluster average'}{17}{subsection.2.4.4}
@@ -31,33 +31,33 @@
 \contentsline {section}{\numberline {3.3}\IeC {\"U}bergangsmatrixmethode f\IeC {\"u}r die Markov'sche Einbettung}{40}{section.3.3}
 \contentsline {section}{\numberline {3.4}Definition der Schrittautokorrelationsfunktion}{41}{section.3.4}
 \contentsline {section}{\numberline {3.5}Mean-Squared-Displacement und Schrittautokorrelation f\IeC {\"u}r viele Walker}{42}{section.3.5}
-\contentsline {chapter}{\numberline {4}Viele Random-Walker auf dem freien Cluster mit Nahrung (2D)}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Interaktion der Random-Walker}{45}{section.4.1}
-\contentsline {section}{\numberline {4.2}Gleichzeitiges Ziehen}{46}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Mean-Squared-Displacement}{46}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Nahrungsvorrat und Diffusionsexponent}{47}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Dichtekorrelation der Walker}{49}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Dichteautokorrelation}{50}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Korrelation mit benachbarten Bl\IeC {\"o}cken}{52}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Autokorrelation der Schritte}{54}{subsection.4.2.6}
-\contentsline {section}{\numberline {4.3}Sukzessives Ziehen}{57}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Mean-Squared-Displacement und Nahrungsvorrat}{57}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Mean-Squared-Displacement bei Unterschiedlichen Walkerdichten}{58}{section.4.4}
-\contentsline {section}{\numberline {4.5}Mean-Squared-Displacement mit neuem Aufpunkt}{59}{section.4.5}
-\contentsline {chapter}{\numberline {5}Viele Random-Walker auf dem perkolierenden Cluster mit Nahrung (2D)}{62}{chapter.5}
-\contentsline {section}{\numberline {5.1}Simulation von 10\% Walkerdichte auf dem perkolierenden Cluster}{63}{section.5.1}
-\contentsline {section}{\numberline {5.2}Mean-Squared-Displacement bei Unterschiedlichen Walkerdichten}{65}{section.5.2}
-\contentsline {section}{\numberline {5.3}Mean-Squared-Displacement auf dem perkolierenden Cluster mit neuem Aufpunkt}{68}{section.5.3}
-\contentsline {chapter}{\numberline {6}Transiente Mean-Squared-Displacements}{71}{chapter.6}
-\contentsline {section}{\numberline {6.1}Beispiele f\IeC {\"u}r transiente \penalty -\@M Mean-Squared-Displacements}{71}{section.6.1}
-\contentsline {section}{\numberline {6.2}Minimalmodel eines Walkers auf einem Nahrungsquadrat, echte Subdiffusion}{72}{section.6.2}
-\contentsline {section}{\numberline {6.3}PAC-MAN Verhalten als unendliche Transiente}{77}{section.6.3}
-\contentsline {chapter}{\numberline {7}Nachf\IeC {\"u}llen der Nahrung}{78}{chapter.7}
-\contentsline {section}{\numberline {7.1}Einleitung/Idee}{78}{section.7.1}
-\contentsline {section}{\numberline {7.2}Simulation bei verschiedenen Walkerdichten}{79}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}10\% Walkerdichte}{79}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}1\% Walkerdichte}{83}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Vergleich}{85}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}Mehrere Auff\IeC {\"u}llversuche pro Walker}{86}{section.7.3}
-\contentsline {chapter}{\numberline {8}Zusammenfassung/Ausblick}{87}{chapter.8}
-\contentsline {chapter}{\numberline {A}Mathematica Notebook zum 1D Walk}{89}{appendix.A}
+\contentsline {chapter}{\numberline {4}Viele Random-Walker auf dem freien Cluster mit Nahrung (2D)}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interaktion der Random-Walker}{47}{section.4.1}
+\contentsline {section}{\numberline {4.2}Simultanes Ziehen}{48}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Mean-Squared-Displacement}{48}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Nahrungsvorrat und Diffusionsexponent}{49}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Dichtekorrelation der Walker}{51}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Dichteautokorrelation}{52}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Korrelation mit benachbarten Bl\IeC {\"o}cken}{54}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Autokorrelation der Schritte}{56}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Sukzessives Ziehen}{59}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Mean-Squared-Displacement und Nahrungsvorrat}{59}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Mean-Squared-Displacement bei unterschiedlichen Walkerdichten}{60}{section.4.4}
+\contentsline {section}{\numberline {4.5}Mean-Squared-Displacement mit neuem Aufpunkt}{61}{section.4.5}
+\contentsline {chapter}{\numberline {5}Viele Random-Walker auf dem perkolierenden Cluster mit Nahrung (2D)}{64}{chapter.5}
+\contentsline {section}{\numberline {5.1}Simulation von 10\% Walkerdichte auf dem perkolierenden Cluster}{65}{section.5.1}
+\contentsline {section}{\numberline {5.2}Mean-Squared-Displacement bei unterschiedlichen Walkerdichten}{67}{section.5.2}
+\contentsline {section}{\numberline {5.3}Mean-Squared-Displacement auf dem perkolierenden Cluster mit neuem Aufpunkt}{70}{section.5.3}
+\contentsline {chapter}{\numberline {6}Transiente Mean-Squared-Displacements}{73}{chapter.6}
+\contentsline {section}{\numberline {6.1}Beispiele f\IeC {\"u}r transiente msd}{73}{section.6.1}
+\contentsline {section}{\numberline {6.2}Minimalmodel eines Walkers auf einem Nahrungsquadrat, echte Subdiffusion}{74}{section.6.2}
+\contentsline {section}{\numberline {6.3}PAC-MAN Verhalten als unendliche Transiente}{79}{section.6.3}
+\contentsline {chapter}{\numberline {7}Nachf\IeC {\"u}llen der Nahrung}{80}{chapter.7}
+\contentsline {section}{\numberline {7.1}Einleitung/Idee}{80}{section.7.1}
+\contentsline {section}{\numberline {7.2}Simulation bei verschiedenen Walkerdichten}{81}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}10\% Walkerdichte}{81}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}1\% Walkerdichte}{85}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Vergleich}{87}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Mehrere Auff\IeC {\"u}llversuche pro Walker}{88}{section.7.3}
+\contentsline {chapter}{\numberline {8}Zusammenfassung/Ausblick}{92}{chapter.8}
+\contentsline {chapter}{\numberline {A}Mathematica Notebook zum 1D Walk}{94}{appendix.A}
