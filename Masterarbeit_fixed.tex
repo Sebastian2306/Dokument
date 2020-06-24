@@ -529,6 +529,10 @@ Nun ist $\hat{N}_{2p}$ gesucht, also die Anzahl aller Pfade von $(0,0)$ nach $(2
 \end{align}
 da ${2p \choose p+1} = \frac{p}{p+1} {2p \choose p}$ gilt.
 \subsection{Zweiter Fall $r>x$}
+Auf den Fall, dass $r>x$ ist, muss in dieser Arbeit leider verzichtet werden. Hier werden die kombinatorischen Abzählungen deutlich komplizierter als zuvor, wo $r=x$ gelten sollte. Das Problem liegt darin, dass die Schritte gegen die Nahrung nicht mehr mit einem $1/2$ Schritt nach vorne verknüpft werden können und die freien Schritte auch nicht mehr auf positive Random-Walks zurückgeführt werden können.
+\\
+Man betrachte zum Beispiel den Fall $x= 2n-2,\ r=x+1,\ t=2n$; offensichtlich kann dieser ohne einen $1/2$ Schritt ablaufen, indem einfach der letzte Schritt gegen die Nahrung stattfindet.
+ 
 
 \section{Übergangsmatrixmethode für die Markov'sche Einbettung}
 In diesem Abschnitt soll eine Möglichkeit vorgestellt werden, mit welcher unter zur Hilfenahme eines Computeralgebrasystems -- wie zum Beispiel Mathematica oder der Sympy Erweiterung für Python -- zu jedem Zeitpunkt $t$ die Wahrscheinlichkeit für einen Zustand $(i,r)$, wobei $i$ die Gitterposition und $r$ der am weitesten rechts liegende Gitterplatz ohne Nahrung ist, des zuvor vorgestellten Markov'schen Prozesses bestimmt werden kann.
@@ -589,6 +593,14 @@ g_{0}(\tau) \approx \left(\frac{e^F}{e^F+1}\right)^{\tau}
 \end{align}
 abschätzen, da nach jedem Schritt die Wahrscheinlichkeit $\frac{e^F}{e^F+1}$ ist, dass der nächste Schritt wieder in die selbe Richtung erfolgt. Diese Abschätzung vernachlässigt völlig den negativen Anteil, für den aber ein Schritt in die Gegenrichtung nötig ist, welcher für $F=5$ den Faktor $\frac{1}{e^5 + 1} < 0.007$ beinhaltet. Der erste Schritt ist $\tau = 0$ der zweite $\tau=1$, und so weiter. Die Startzeit $t_0$ möchte ich auf $t_0=0$ setzen.
 \\
+In der nachfolgenden Graphik wird gezeigt, dass die obige Approximation vertretbar ist.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{oned_approx.pdf}
+	\caption{Simulierte Autokorrelation der Schritte des eindimensionalen Modells im Verglich mit der 'first-order' Approximation \break Es wurde über $10^6$ Samples gemittelt.}
+\end{figure}
+
 \noindent Auch für viele Walker lässt sich eine längere Korrelation zum ersten Schritt vermuten, da bis zum Erreichen der Fressspur eines benachbarten Walkers die Schritte nahezu deterministisch in die Richtung des ersten Schrittes erfolgen.
 \\
 \noindent Ungefähr die Hälfte der Walker bewegt sich auf Walker vor sich zu, die andere Hälfte bewegt sich auseinander. Die Walker die sich aufeinander zu bewegen erreichen sich im Mittel nach etwa $\frac{1}{2 \rho}$ Schritten, wobei $\rho$ die Dichte der Walker ist.
@@ -599,7 +611,6 @@ abschätzen, da nach jedem Schritt die Wahrscheinlichkeit $\frac{e^F}{e^F+1}$ is
 \\
 \\
 \noindent In der nachfolgenden Grafik werden die Simulationsergebnisse gezeigt. Man sieht, dass die Schrittautokorrelationsfunktion tatsächlich, wie die oben begründetete Vermutung sagt, nach 5 Schritten knapp unter $0.5$ ist. Die zweite 'Vermutung', dass nach etwa 11 Schritten die Schrittautokorrelationsfunktion auf 0 abgefallen ist, wird auch die die Simulation bestätigt.
-
 
 
 \begin{figure}[H]
@@ -1036,14 +1047,37 @@ Auch die Einstellung des Nahrungsvorrats im Bezug auf die Walkerdichte möchte i
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.75]{flevel_vs_dens.pdf}
-	\caption{Das sich einstellende Nahrungslevel in Prozent gegen die Walkerdichte in Prozent aufgetragen, bei einem Auffüllversuch pro Walker}
+	\caption{Das sich einstellende Nahrungslevel in Prozent gegen die Walkerdichte in Prozent aufgetragen, bei einem Auffüllversuch pro Walker\label{foodlevel_vs_dens}}
 \end{figure}
 
 \clearpage
 
 \section{Mehrere Auffüllversuche pro Walker}
-In diesem Kapitel soll untersucht werden, in wie weit das Nahrungslevel den dominanten Einfluss auf das $msd$ hat. Konkret soll bei einer Dichte $\rho$ durch mehrere (zwei oder drei) Auffüllversuche ein höheres Nahrungslevel geschaffen werden, wie es sich mit einem Auffüllversuch pro Walker zu einer Dichte $\hat{\rho}<\rho$ ergibt.
+In diesem Kapitel soll untersucht werden, in wie weit das Nahrungslevel den dominanten Einfluss auf das $msd$ hat. Konkret soll bei einer Dichte $\rho$ durch mehrere (z.B. zwei oder drei) Auffüllversuche ein höheres Nahrungslevel geschaffen werden, wie es sich mit einem Auffüllversuch pro Walker zu einer Dichte $\hat{\rho}<\rho$ ergibt.
+\\
+Zunächst möchte ich mein 'Standardsystem', also 10\% Walkerdichte auf einem perkolierenden Cluster in einer $100\times100$ Matrix, mit zwei Auffüllversuchen pro Walker simulieren. Hierbei wurden wie zuvor 100 Läufe auuf 10 Matrizen simuliert. Nachfolgende Graphik zeigt, dass sich ein höheres Nahrungslevel als zu zuvor, bei einem Auffüllversuch pro Walker, ergibt. Man findet ein Nahrungslevel von ungefähr 67\%, aus der obigen Graphik \ref{foodlevel_vs_dens} bei einem Auffüllversuch und 2\% Walkerdichte. Auch die Simulationsergebnisse der 2\% Walkerdichte, mit einem Auffüllversuch pro Walker, werden unten gezeigt.
+\\
+Um die $msd$s miteinander richtig vergleichen zu können, sollten allerdings equilibrierte, also mit verschobenem Aufpunkt berechnete, $msd$s betrachtet werden.
+\\
+Hier lässt sich erkennen, dass sich nahezu dasselbe Nahrungslevel und auch nahezu derselbe Diffusionsexponent einstellt. Es lässt sich also die äußerst plausible Vermutung aufstellen, dass das Nahrungslevel die Dynamik bestimmt. Plausibel ist diese Vermutung daher, da die einzelnen Walker die anderen Walker direkt garnicht spüren, sondern nur die Nahrung, somit ist die Dichte der Walker nur insofern entscheidend, wie sie sich auf das Nahrungslevel auswirkt.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{10percent_new_2food.pdf}
+	\caption{Ergebniss der MC-Simulation von 10\% Walkerdichte auf dem perkolierenden Cluster mit zwei Auffüllversuchen pro Walker und Zeitschritt}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{10_2_vs_2_1.pdf}
+	\caption{Equilibrierter Vergleich von 10\% zwei Auffüllversuche gegen 2\% mit einem Auffüllversuch}
+\end{figure}
+
+\clearpage
+
+\noindent Diese zunächst plausibel erscheinende Vermutung, hat allerdings auch eine Schwachstelle.  Die Nahrung, welche über Auffüllversuche hinzugefügt wird ist an bereits besuchten Stellen, damit ist es nicht wie im originalen PAC-MAN Modell aus \cite{doi:10.1063/1.4999485}, wo sichergestellt wird, das der einzelne Walker immer neue Nahrung finden kann und immer neue Gitterplätze besucht. Eine hohe Dichte und viele Auffüllversuche bedeutet, dass wir quasi einfach immer alle Gitterplätze mit Nahung belegen un so einen $F=0$ Walk erhalten, mit dem Unterschied, dass man keine moves ablehnen muss. Wir erhalten also einfach den 'myopic ants' Fall. Eine geringe Dichte und seltenes Nachfüllen (was sich ergibt, da nur wenige Walker und damit wenige Versuche) ergibt hingegen tatsächlich wie Abbildung 7.3 zeigt eine PAC-MAN ähnliche Dynamik. Diese Behauptung sieht man sehr schön am nachfolgenden Vergleich von 1\% Dichte mit einem Auffüllversuch pro Walker (also etwa 40 Auffüllversuche pro MC-Schritt) versus 10\% Dichte und drei Auffüllversuche (etwa 1200 Auffüllversuche pro MC-Schritt). Man beachte auch besonders den ersten Schritt, in der 10\% drei Auffüllversuche Simulation wird dieser zu über 80\% akzeptiert, während die 1\% Simulation nur zu etwa 60\% akzeptiert (wie die 'blind ants'). Daraus kann man folgern, dass die 10\% drei Auffüllversuche viel häufiger benachbarte Gitterplätze mit Nahrung bei sich haben. Alle Ergebnisse beziehen sich auf das equilibrierte System.
 \chapter{Zusammenfassung/Ausblick}
 In dieser Arbeit wurden diverse Varianten des Random-Walks mit Nahrung simuliert. Der 'klassische' PAC-MAN Prozess aus \cite{doi:10.1063/1.4999485} wurde vorgestellt und erweitert auf viele, indirekt wechselwirkende Walker, auf der freien Ebene sowie auf dem perkolierenden Cluster.
 \\
@@ -1054,6 +1088,9 @@ Es wurde festgestellt, dass die vielen Walker auf der freien Ebene (2D) sich dur
 Die Simulationen mit vielen Walkern (unendlich vielen, Dichte $\rho > 0$) haben eine gewisse Skepsis an den $msd$s und die dazu vermuteten Potenzgesetze (engl. 'power-law') und zugehörigen Diffusionsexponenten hervorgebracht. Lokale Exponenten von transienten $msd$s zeigen nicht immer zwingend (wie zu stationären $msd$s) die 'wahre' Ausbreitungsgeschwindigkeit der Teilchen/Walker. Der lokale Exponent bei dem Prozess mit Nahrung auf der freien Ebene hat ein subdiffusives Regime nahegelegt, welches durch eine verschobene Aufpunktswahl widerlegt werden konnte, die 'wahre' Ausbreitung war sogar stärker als diffusiv.
 \\
 Solche transienten $msd$s finden sich auch in anderen Simulationen der Physik weicher Materie wie zum Beispiel in dem Paper von Zausch et al. \cite{Zausch_2008}, in dem die Dynamik kolloidaler Flüssigkeiten unter Scherung untersucht wird. Auch dort wird unter fortlaufender Scherung (transient) ab einem gewissen Punkt eine superdiffusive Dynamik beobachtet.
+\\
+Den Abschluss dieser Arbeit bilden Untersuchungen einer Variante des Prozesses mit vielen Walkern auf dem perkolierenden Cluster, in welcher immer versucht wird Nahrung nachzufüllen. Durch das Nachfüllen stellt sich ein gewisses Gleichgewicht ein, das Nahrungsniveau wird ungefähr konstant. Somit liegt dann ein stationärer Prozess vor, hier kann man aus dem $msd$ und dem Diffusionsexponenten die klassischen Schlussfolgerungen ziehen und Vergleiche anstellen.
+
 
 
 \appendix
@@ -1061,6 +1098,7 @@ Solche transienten $msd$s finden sich auch in anderen Simulationen der Physik we
 In diesem Anhang möchte ich ein Mathematica Notebook vorstellen, welches die Implementation der in Kapitel 3 beschriebenen Matrixmethode zeigt. Zudem hat mir dieses Notebook geholfen, meine kombinatorische $r=x$ Formel zu verifizieren.
 	
 \includepdf[pages=1-2, scale=0.8]{foodwalker1d.pdf}
+
 
 
 \bibliographystyle{plain}
