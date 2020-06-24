@@ -1078,6 +1078,14 @@ Hier lässt sich erkennen, dass sich nahezu dasselbe Nahrungslevel und auch nahe
 \clearpage
 
 \noindent Diese zunächst plausibel erscheinende Vermutung, hat allerdings auch eine Schwachstelle.  Die Nahrung, welche über Auffüllversuche hinzugefügt wird ist an bereits besuchten Stellen, damit ist es nicht wie im originalen PAC-MAN Modell aus \cite{doi:10.1063/1.4999485}, wo sichergestellt wird, das der einzelne Walker immer neue Nahrung finden kann und immer neue Gitterplätze besucht. Eine hohe Dichte und viele Auffüllversuche bedeutet, dass wir quasi einfach immer alle Gitterplätze mit Nahung belegen un so einen $F=0$ Walk erhalten, mit dem Unterschied, dass man keine moves ablehnen muss. Wir erhalten also einfach den 'myopic ants' Fall. Eine geringe Dichte und seltenes Nachfüllen (was sich ergibt, da nur wenige Walker und damit wenige Versuche) ergibt hingegen tatsächlich wie Abbildung 7.3 zeigt eine PAC-MAN ähnliche Dynamik. Diese Behauptung sieht man sehr schön am nachfolgenden Vergleich von 1\% Dichte mit einem Auffüllversuch pro Walker (also etwa 40 Auffüllversuche pro MC-Schritt) versus 10\% Dichte und drei Auffüllversuche (etwa 1200 Auffüllversuche pro MC-Schritt). Man beachte auch besonders den ersten Schritt, in der 10\% drei Auffüllversuche Simulation wird dieser zu über 80\% akzeptiert, während die 1\% Simulation nur zu etwa 60\% akzeptiert (wie die 'blind ants'). Daraus kann man folgern, dass die 10\% drei Auffüllversuche viel häufiger benachbarte Gitterplätze mit Nahrung bei sich haben. Alle Ergebnisse beziehen sich auf das equilibrierte System.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{10_1_vs_1_1.pdf}
+	\caption{Equilibrierter Vergleich von 10\% drei Auffüllversuche gegen 1\% mit einem Auffüllversuch}
+\end{figure}
+
+\clearpage
 \chapter{Zusammenfassung/Ausblick}
 In dieser Arbeit wurden diverse Varianten des Random-Walks mit Nahrung simuliert. Der 'klassische' PAC-MAN Prozess aus \cite{doi:10.1063/1.4999485} wurde vorgestellt und erweitert auf viele, indirekt wechselwirkende Walker, auf der freien Ebene sowie auf dem perkolierenden Cluster.
 \\
