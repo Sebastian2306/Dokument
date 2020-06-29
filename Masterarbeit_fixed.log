@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  24 JUN 2020 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  29 JUN 2020 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,7 +799,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<DLR.jpg, id=253, 722.7pt x 481.8pt>
+<DLR.jpg, id=261, 722.7pt x 481.8pt>
 File: DLR.jpg Graphic file (type jpg)
 <use DLR.jpg>
 Package pdftex.def Info: DLR.jpg  used on input line 31.
@@ -962,7 +962,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 66.
-<Percolation1.jpg, id=389, 477.785pt x 279.0425pt>
+<Percolation1.jpg, id=399, 477.785pt x 279.0425pt>
 File: Percolation1.jpg Graphic file (type jpg)
 <use Percolation1.jpg>
 Package pdftex.def Info: Percolation1.jpg  used on input line 70.
@@ -988,7 +988,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 82.
-<H-K_algorithm.png, id=398, 347.04657pt x 317.68687pt>
+<H-K_algorithm.png, id=408, 347.04657pt x 317.68687pt>
 File: H-K_algorithm.png Graphic file (type png)
 <use H-K_algorithm.png>
 Package pdftex.def Info: H-K_algorithm.png  used on input line 87.
@@ -1034,7 +1034,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 94.
 [7]
-<HSK_pseudocode.png, id=418, 660.96938pt x 557.83406pt>
+<HSK_pseudocode.png, id=428, 660.96938pt x 557.83406pt>
 File: HSK_pseudocode.png Graphic file (type png)
 <use HSK_pseudocode.png>
 Package pdftex.def Info: HSK_pseudocode.png  used on input line 98.
@@ -1067,12 +1067,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 106.
-<diagonalperc1.pdf, id=424, 433.62pt x 289.08pt>
+<diagonalperc1.pdf, id=434, 433.62pt x 289.08pt>
 File: diagonalperc1.pdf Graphic file (type pdf)
 <use diagonalperc1.pdf>
 Package pdftex.def Info: diagonalperc1.pdf  used on input line 109.
 (pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
-<noperc1.pdf, id=426, 433.62pt x 289.08pt>
+<noperc1.pdf, id=436, 433.62pt x 289.08pt>
 File: noperc1.pdf Graphic file (type pdf)
 <use noperc1.pdf>
 Package pdftex.def Info: noperc1.pdf  used on input line 118.
@@ -1098,7 +1098,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.130 
        <./diagonalperc1.pdf>]
-<noperc2.pdf, id=446, 462.52798pt x 346.89601pt>
+<noperc2.pdf, id=456, 462.52798pt x 346.89601pt>
 File: noperc2.pdf Graphic file (type pdf)
 <use noperc2.pdf>
 Package pdftex.def Info: noperc2.pdf  used on input line 133.
@@ -1133,7 +1133,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.137 \clearpage
                  <./noperc2.pdf>]
-<diagcode.png, id=484, 558.58687pt x 414.04688pt>
+<diagcode.png, id=494, 558.58687pt x 414.04688pt>
 File: diagcode.png Graphic file (type png)
 <use diagcode.png>
 Package pdftex.def Info: diagcode.png  used on input line 144.
@@ -1185,7 +1185,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 160.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 160.
-<fractaldim_code.png, id=493, 592.46344pt x 545.78906pt>
+<fractaldim_code.png, id=503, 592.46344pt x 545.78906pt>
 File: fractaldim_code.png Graphic file (type png)
 <use fractaldim_code.png>
 Package pdftex.def Info: fractaldim_code.png  used on input line 170.
@@ -1225,7 +1225,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 176.
-<fractal_histo.pdf, id=508, 433.62pt x 289.08pt>
+<fractal_histo.pdf, id=518, 433.62pt x 289.08pt>
 File: fractal_histo.pdf Graphic file (type pdf)
 <use fractal_histo.pdf>
 Package pdftex.def Info: fractal_histo.pdf  used on input line 183.
@@ -1280,7 +1280,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 214.
-<acpcold1000.pdf, id=544, 433.62pt x 289.08pt>
+<acpcold1000.pdf, id=554, 433.62pt x 289.08pt>
 File: acpcold1000.pdf Graphic file (type pdf)
 <use acpcold1000.pdf>
 Package pdftex.def Info: acpcold1000.pdf  used on input line 219.
@@ -1317,7 +1317,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.228 \begin{align}
                    \label{diffusionexponent} <./acpcold1000.pdf>]
-<newacpc100.pdf, id=599, 433.62pt x 505.89pt>
+<newacpc100.pdf, id=609, 433.62pt x 505.89pt>
 File: newacpc100.pdf Graphic file (type pdf)
 <use newacpc100.pdf>
 Package pdftex.def Info: newacpc100.pdf  used on input line 234.
@@ -1343,7 +1343,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 240.
-<both100.pdf, id=605, 433.62pt x 289.08pt>
+<both100.pdf, id=615, 433.62pt x 289.08pt>
 File: both100.pdf Graphic file (type pdf)
 <use both100.pdf>
 Package pdftex.def Info: both100.pdf  used on input line 244.
@@ -1382,7 +1382,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.251 
        <./both100.pdf>]
-<diagpc100.pdf, id=702, 433.62pt x 505.89pt>
+<diagpc100.pdf, id=713, 433.62pt x 505.89pt>
 File: diagpc100.pdf Graphic file (type pdf)
 <use diagpc100.pdf>
 Package pdftex.def Info: diagpc100.pdf  used on input line 254.
@@ -1433,7 +1433,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 270.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 270.
-<saw.png, id=762, 262.73157pt x 216.81pt>
+<saw.png, id=772, 262.73157pt x 216.81pt>
 File: saw.png Graphic file (type png)
 <use saw.png>
 Package pdftex.def Info: saw.png  used on input line 274.
@@ -1474,7 +1474,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 280.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 280.
-<pacman.png, id=780, 1433.355pt x 1025.8325pt>
+<pacman.png, id=790, 1433.355pt x 1025.8325pt>
 File: pacman.png Graphic file (type png)
 <use pacman.png>
 Package pdftex.def Info: pacman.png  used on input line 284.
@@ -1507,7 +1507,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15})
                                                   \fi \fi 
 l.287 \newpage
                <./pacman.png>]
-<food.pdf, id=789, 433.62pt x 289.08pt>
+<food.pdf, id=799, 433.62pt x 289.08pt>
 File: food.pdf Graphic file (type pdf)
 <use food.pdf>
 Package pdftex.def Info: food.pdf  used on input line 297.
@@ -1525,7 +1525,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 300.
 [27]
-<newfood.pdf, id=796, 433.62pt x 289.08pt>
+<newfood.pdf, id=806, 433.62pt x 289.08pt>
 File: newfood.pdf Graphic file (type pdf)
 <use newfood.pdf>
 Package pdftex.def Info: newfood.pdf  used on input line 318.
@@ -1564,7 +1564,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.324 \newpage
                <./newfood.pdf>]
-<food_thomas.png, id=860, 770.12718pt x 511.9125pt>
+<food_thomas.png, id=870, 770.12718pt x 511.9125pt>
 File: food_thomas.png Graphic file (type png)
 <use food_thomas.png>
 Package pdftex.def Info: food_thomas.png  used on input line 329.
@@ -1719,7 +1719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 513--517
 
  []
 
-<spiegelungsprinzip.png, id=928, 762.59906pt x 408.77719pt>
+<spiegelungsprinzip.png, id=938, 762.59906pt x 408.77719pt>
 File: spiegelungsprinzip.png Graphic file (type png)
 <use spiegelungsprinzip.png>
 Package pdftex.def Info: spiegelungsprinzip.png  used on input line 520.
@@ -1815,7 +1815,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 593.
  [42]
-<oned_approx.pdf, id=957, 578.16pt x 722.7pt>
+<oned_approx.pdf, id=967, 578.16pt x 722.7pt>
 File: oned_approx.pdf Graphic file (type pdf)
 <use oned_approx.pdf>
 Package pdftex.def Info: oned_approx.pdf  used on input line 600.
@@ -1865,7 +1865,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.614 
        <./oned_approx.pdf>]
-<onedescp.pdf, id=1010, 578.16pt x 722.7pt>
+<onedescp.pdf, id=1020, 578.16pt x 722.7pt>
 File: onedescp.pdf Graphic file (type pdf)
 <use onedescp.pdf>
 Package pdftex.def Info: onedescp.pdf  used on input line 618.
@@ -1928,7 +1928,7 @@ Package babel Info: Redefining ngerman shorthand "~
 [47
 
 ]
-<msd10_1.png, id=1066, 558.58687pt x 314.67563pt>
+<msd10_1.png, id=1077, 558.58687pt x 314.67563pt>
 File: msd10_1.png Graphic file (type png)
 <use msd10_1.png>
 Package pdftex.def Info: msd10_1.png  used on input line 639.
@@ -1957,7 +1957,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 649.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 649.
-<10percent_free.pdf, id=1075, 433.62pt x 722.7pt>
+<10percent_free.pdf, id=1085, 433.62pt x 722.7pt>
 File: 10percent_free.pdf Graphic file (type pdf)
 <use 10percent_free.pdf>
 Package pdftex.def Info: 10percent_free.pdf  used on input line 656.
@@ -2007,7 +2007,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.667 \begin{equation}
                        <./10percent_free.pdf>]
-<corrcode.png, id=1124, 676.02562pt x 111.41624pt>
+<corrcode.png, id=1134, 676.02562pt x 111.41624pt>
 File: corrcode.png Graphic file (type png)
 <use corrcode.png>
 Package pdftex.def Info: corrcode.png  used on input line 678.
@@ -2036,7 +2036,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 684.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 684.
-<autocorr10.pdf, id=1133, 722.7pt x 867.24pt>
+<autocorr10.pdf, id=1143, 722.7pt x 867.24pt>
 File: autocorr10.pdf Graphic file (type pdf)
 <use autocorr10.pdf>
 Package pdftex.def Info: autocorr10.pdf  used on input line 695.
@@ -2077,7 +2077,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 701.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 701.
-<dens10_corr10.pdf, id=1186, 578.16pt x 433.62pt>
+<dens10_corr10.pdf, id=1196, 578.16pt x 433.62pt>
 File: dens10_corr10.pdf Graphic file (type pdf)
 <use dens10_corr10.pdf>
 Package pdftex.def Info: dens10_corr10.pdf  used on input line 707.
@@ -2087,7 +2087,7 @@ Overfull \hbox (72.52863pt too wide) in paragraph at lines 707--708
  [][] 
  []
 
-<dens10_corr5.pdf, id=1187, 578.16pt x 433.62pt>
+<dens10_corr5.pdf, id=1197, 578.16pt x 433.62pt>
 File: dens10_corr5.pdf Graphic file (type pdf)
 <use dens10_corr5.pdf>
 Package pdftex.def Info: dens10_corr5.pdf  used on input line 713.
@@ -2147,7 +2147,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 728--735
 
  []
 
-<dens10_escp.pdf, id=1272, 433.62pt x 722.7pt>
+<dens10_escp.pdf, id=1282, 433.62pt x 722.7pt>
 File: dens10_escp.pdf Graphic file (type pdf)
 <use dens10_escp.pdf>
 Package pdftex.def Info: dens10_escp.pdf  used on input line 738.
@@ -2178,7 +2178,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.742 \clearpage
                  <./dens10_escp.pdf>]
-<stepautocorr_multF.pdf, id=1323, 462.52798pt x 346.89601pt>
+<stepautocorr_multF.pdf, id=1334, 462.52798pt x 346.89601pt>
 File: stepautocorr_multF.pdf Graphic file (type pdf)
 <use stepautocorr_multF.pdf>
 Package pdftex.def Info: stepautocorr_multF.pdf  used on input line 746.
@@ -2208,7 +2208,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 755.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 755.
-<suc10.pdf, id=1368, 433.62pt x 289.08pt>
+<suc10.pdf, id=1378, 433.62pt x 289.08pt>
 File: suc10.pdf Graphic file (type pdf)
 <use suc10.pdf>
 Package pdftex.def Info: suc10.pdf  used on input line 760.
@@ -2258,7 +2258,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 790.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 790.
-<tshift10.pdf, id=1409, 433.62pt x 722.7pt>
+<tshift10.pdf, id=1419, 433.62pt x 722.7pt>
 File: tshift10.pdf Graphic file (type pdf)
 <use tshift10.pdf>
 Package pdftex.def Info: tshift10.pdf  used on input line 805.
@@ -2326,7 +2326,7 @@ Package babel Info: Redefining ngerman shorthand "~
 [64
 
 ]
-<10percent_on_pc_new_version.pdf, id=1471, 433.62pt x 722.7pt>
+<10percent_on_pc_new_version.pdf, id=1481, 433.62pt x 722.7pt>
 File: 10percent_on_pc_new_version.pdf Graphic file (type pdf)
 <use 10percent_on_pc_new_version.pdf>
 Package pdftex.def Info: 10percent_on_pc_new_version.pdf  used on input line 83
@@ -2382,7 +2382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 850--856
 
  []
 
-<05percent_on_pc.pdf, id=1529, 505.89pt x 578.16pt>
+<05percent_on_pc.pdf, id=1539, 505.89pt x 578.16pt>
 File: 05percent_on_pc.pdf Graphic file (type pdf)
 <use 05percent_on_pc.pdf>
 Package pdftex.def Info: 05percent_on_pc.pdf  used on input line 859.
@@ -2432,7 +2432,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 866--877
 
  []
 
-<vardenspc.pdf, id=1585, 578.16pt x 433.62pt>
+<vardenspc.pdf, id=1596, 578.16pt x 433.62pt>
 File: vardenspc.pdf Graphic file (type pdf)
 <use vardenspc.pdf>
 Package pdftex.def Info: vardenspc.pdf  used on input line 881.
@@ -2482,7 +2482,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.895 
        <./vardenspc.pdf>]
-<tshift_pc.pdf, id=1640, 578.16pt x 433.62pt>
+<tshift_pc.pdf, id=1650, 578.16pt x 433.62pt>
 File: tshift_pc.pdf Graphic file (type pdf)
 <use tshift_pc.pdf>
 Package pdftex.def Info: tshift_pc.pdf  used on input line 898.
@@ -2542,7 +2542,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 920.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 920.
-<single_walker_on20x20.pdf, id=1692, 433.62pt x 722.7pt>
+<single_walker_on20x20.pdf, id=1702, 433.62pt x 722.7pt>
 File: single_walker_on20x20.pdf Graphic file (type pdf)
 <use single_walker_on20x20.pdf>
 Package pdftex.def Info: single_walker_on20x20.pdf  used on input line 927.
@@ -2593,7 +2593,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 932--940
 
  []
 
-<300shifted_single_walker_on20x20.pdf, id=1744, 433.62pt x 722.7pt>
+<300shifted_single_walker_on20x20.pdf, id=1754, 433.62pt x 722.7pt>
 File: 300shifted_single_walker_on20x20.pdf Graphic file (type pdf)
 <use 300shifted_single_walker_on20x20.pdf>
 Package pdftex.def Info: 300shifted_single_walker_on20x20.pdf  used on input li
@@ -2642,7 +2642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 948--950
 
  []
 
-<abc.pdf, id=1794, 578.16pt x 433.62pt>
+<abc.pdf, id=1804, 578.16pt x 433.62pt>
 File: abc.pdf Graphic file (type pdf)
 <use abc.pdf>
 Package pdftex.def Info: abc.pdf  used on input line 954.
@@ -2728,7 +2728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 987--998
 
  []
 
-<10percent_new_food1.pdf, id=1854, 433.62pt x 722.7pt>
+<10percent_new_food1.pdf, id=1864, 433.62pt x 722.7pt>
 File: 10percent_new_food1.pdf Graphic file (type pdf)
 <use 10percent_new_food1.pdf>
 Package pdftex.def Info: 10percent_new_food1.pdf  used on input line 1001.
@@ -2757,7 +2757,7 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.1005 \clearpage
                   <./10percent_new_food1.pdf>]
-<new_food10_shifted100.pdf, id=1910, 578.16pt x 578.16pt>
+<new_food10_shifted100.pdf, id=1921, 578.16pt x 578.16pt>
 File: new_food10_shifted100.pdf Graphic file (type pdf)
 <use new_food10_shifted100.pdf>
 Package pdftex.def Info: new_food10_shifted100.pdf  used on input line 1013.
@@ -2807,7 +2807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1020--1029
 
  []
 
-<1percent_new_food1.pdf, id=1971, 433.62pt x 722.7pt>
+<1percent_new_food1.pdf, id=1982, 433.62pt x 722.7pt>
 File: 1percent_new_food1.pdf Graphic file (type pdf)
 <use 1percent_new_food1.pdf>
 Package pdftex.def Info: 1percent_new_food1.pdf  used on input line 1032.
@@ -2847,7 +2847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1040--1046
 
  []
 
-<flevel_vs_dens.pdf, id=2028, 462.52798pt x 346.89601pt>
+<flevel_vs_dens.pdf, id=2039, 462.52798pt x 346.89601pt>
 File: flevel_vs_dens.pdf Graphic file (type pdf)
 <use flevel_vs_dens.pdf>
 Package pdftex.def Info: flevel_vs_dens.pdf  used on input line 1049.
@@ -2873,55 +2873,55 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1055.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1055.
-<10percent_new_2food.pdf, id=2070, 433.62pt x 722.7pt>
+<10percent_new_2food.pdf, id=2082, 433.62pt x 722.7pt>
 File: 10percent_new_2food.pdf Graphic file (type pdf)
 <use 10percent_new_2food.pdf>
-Package pdftex.def Info: 10percent_new_2food.pdf  used on input line 1066.
+Package pdftex.def Info: 10percent_new_2food.pdf  used on input line 1070.
 (pdftex.def)             Requested size: 325.2142pt x 542.02367pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1069.
+(babel)             in language  on input line 1073.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1069.
+(babel)             in language  on input line 1073.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1069.
+(babel)             in language  on input line 1073.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1069.
+(babel)             in language  on input line 1073.
  [88
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1070.
+(babel)             in language  on input line 1074.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1070.
+(babel)             in language  on input line 1074.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1070.
+(babel)             in language  on input line 1074.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1070.
+(babel)             in language  on input line 1074.
  [89pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1070 \clearpage
+l.1074 \clearpage
                   <./10percent_new_2food.pdf>]
-<10_2_vs_2_1.pdf, id=2125, 578.16pt x 578.16pt>
+<10_2_vs_2_1.pdf, id=2138, 578.16pt x 578.16pt>
 File: 10_2_vs_2_1.pdf Graphic file (type pdf)
 <use 10_2_vs_2_1.pdf>
-Package pdftex.def Info: 10_2_vs_2_1.pdf  used on input line 1074.
+Package pdftex.def Info: 10_2_vs_2_1.pdf  used on input line 1078.
 (pdftex.def)             Requested size: 433.61893pt x 433.61893pt.
 
-Overfull \hbox (43.61893pt too wide) in paragraph at lines 1074--1075
+Overfull \hbox (43.61893pt too wide) in paragraph at lines 1078--1079
  [][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1078.
+(babel)             in language  on input line 1082.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1078.
+(babel)             in language  on input line 1082.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1078.
+(babel)             in language  on input line 1082.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1078.
+(babel)             in language  on input line 1082.
 [90
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7.6}) 
@@ -2929,204 +2929,247 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1078 \clearpage
+l.1082 \clearpage
                   <./10_2_vs_2_1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1090
 
-LaTeX Warning: File `10_1_vs_1_1.pdf' not found on input line 1084.
+ []
 
+<10_3_vs_1_1.pdf, id=2189, 650.43pt x 578.16pt>
+File: 10_3_vs_1_1.pdf Graphic file (type pdf)
+<use 10_3_vs_1_1.pdf>
+Package pdftex.def Info: 10_3_vs_1_1.pdf  used on input line 1093.
+(pdftex.def)             Requested size: 468.30923pt x 416.27487pt.
 
-! Package pdftex.def Error: File `10_1_vs_1_1.pdf' not found: using draft setti
-ng.
+Overfull \hbox (78.30923pt too wide) in paragraph at lines 1093--1094
+ [][] 
+ []
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1084 ...udegraphics[scale=0.75]{10_1_vs_1_1.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1084
-.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1088.
+(babel)             in language  on input line 1096.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1088.
+(babel)             in language  on input line 1096.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1088.
+(babel)             in language  on input line 1096.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1088.
- [91
+(babel)             in language  on input line 1096.
+[91
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7.7}) 
-has been already used, duplicate ignored
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1097.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1097.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1097.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1097.
+ [92pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1088 \clearpage
-                 ]
+l.1097 \clearpage
+                  <./10_3_vs_1_1.pdf>]
 Kapitel 8.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1089.
+(babel)             in language  on input line 1098.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1089.
+(babel)             in language  on input line 1098.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1101.
+(babel)             in language  on input line 1099.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1101.
+(babel)             in language  on input line 1099.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1101.
+(babel)             in language  on input line 1113.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1101.
-[92
+(babel)             in language  on input line 1113.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1113.
+[93
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1105.
+(babel)             in language  on input line 1114.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1105.
+(babel)             in language  on input line 1114.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1105.
+(babel)             in language  on input line 1114.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1105.
- [93]
+(babel)             in language  on input line 1114.
+ [94]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1116.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1116.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1132.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1132.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1132.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1132.
+ [95]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1134.
+ [96]
 Anhang A.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1105.
+(babel)             in language  on input line 1134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1105.
-<foodwalker1d.pdf, id=2195, 614.295pt x 794.97pt>
+(babel)             in language  on input line 1134.
+<foodwalker1d.pdf, id=2269, 614.295pt x 794.97pt>
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf>
-Package pdftex.def Info: foodwalker1d.pdf  used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf  used on input line 1137.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf>
-Package pdftex.def Info: foodwalker1d.pdf  used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf  used on input line 1137.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<foodwalker1d.pdf, id=2198, page=1, 614.295pt x 794.97pt>
+<foodwalker1d.pdf, id=2272, page=1, 614.295pt x 794.97pt>
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 1>
-Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1137.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 1>
-Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1137.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1108.
-[94
+(babel)             in language  on input line 1137.
+[97
 
 ]
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 1>
-Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1137.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 1>
-Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1137.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 1>
-Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page1 used on input line 1137.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [95 <./foodwalker1d.pdf>]
-<foodwalker1d.pdf, id=2266, page=2, 614.295pt x 794.97pt>
+ [98 <./foodwalker1d.pdf>]
+<foodwalker1d.pdf, id=2341, page=2, 614.295pt x 794.97pt>
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 2>
-Package pdftex.def Info: foodwalker1d.pdf , page2 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page2 used on input line 1137.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 2>
-Package pdftex.def Info: foodwalker1d.pdf , page2 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page2 used on input line 1137.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1137.
 File: foodwalker1d.pdf Graphic file (type pdf)
 <use foodwalker1d.pdf, page 2>
-Package pdftex.def Info: foodwalker1d.pdf , page2 used on input line 1108.
+Package pdftex.def Info: foodwalker1d.pdf , page2 used on input line 1137.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [96 <./foodwalker1d.pdf>]
+ [99 <./foodwalker1d.pdf>]
 (./Masterarbeit_fixed.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+ [100
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 []\T1/lmr/m/n/12 21.10.2019 htt-ps://www.ocf.berkeley.edu/ fri-
  []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 68.
+[101
 
-Underfull \hbox (badness 1728) in paragraph at lines 65--69
+]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 72.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 1728) in paragraph at lines 70--74
 []\T1/lmr/m/n/12 Götz Leh-mann.  Nu-me-ri-cal si-mu-la-ti-ons 2 []$\T1/lmtt/m/n
 /12 https : / / github . com /
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
-[97
 
-]
-Overfull \hbox (82.61476pt too wide) in paragraph at lines 81--83
+Overfull \hbox (82.61476pt too wide) in paragraph at lines 87--89
 []\T1/lmr/m/n/12 Nicolas P. Rou-gier.  htt-ps://gist.github.com/rougier/e5eafc2
 76a4e54f516ed5559df4242c0. 
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1150.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1115.
+(babel)             in language  on input line 1150.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1115.
+(babel)             in language  on input line 1150.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1115.
+(babel)             in language  on input line 1150.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1115.
- [98]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1115.
+(babel)             in language  on input line 1150.
+ [102]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1150.
  (./Masterarbeit_fixed.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1150.
 
 Package rerunfilecheck Info: File `Masterarbeit_fixed.out' has not changed.
-(rerunfilecheck)             Checksum: 2A77EC5B1E50A01C59EA1C7DCF2E4D7D;5395.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1115.
+(rerunfilecheck)             Checksum: 4A38B77E06E0C051930A32F0B18A21E5;5512.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1150.
  ) 
 Here is how much of TeX's memory you used:
- 10869 strings out of 492982
- 169109 string characters out of 6134896
- 266826 words of memory out of 5000000
- 13934 multiletter control sequences out of 15000+600000
+ 10885 strings out of 492982
+ 169360 string characters out of 6134896
+ 266868 words of memory out of 5000000
+ 13942 multiletter control sequences out of 15000+600000
  73572 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,19n,49p,1559b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,19n,49p,1573b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -3142,10 +3185,10 @@ onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb>
-Output written on Masterarbeit_fixed.pdf (102 pages, 1514221 bytes).
+Output written on Masterarbeit_fixed.pdf (106 pages, 1540172 bytes).
 PDF statistics:
- 2429 PDF objects out of 2487 (max. 8388607)
- 1328 compressed objects within 14 object streams
- 268 named destinations out of 1000 (max. 500000)
- 747 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2511 PDF objects out of 2984 (max. 8388607)
+ 1373 compressed objects within 14 object streams
+ 276 named destinations out of 1000 (max. 500000)
+ 768 words of extra memory for PDF output out of 10000 (max. 10000000)
 

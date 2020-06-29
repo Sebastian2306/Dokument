@@ -6,6 +6,11 @@ https://de.wikipedia.org/wiki/fraktal.
 \bibitem{Box_counting_wiki}
 https://en.wikipedia.org/wiki/box\_counting.
 
+\bibitem{PhysRevB.27.1635}
+Daniel~J. Amit, G.~Parisi, and L.~Peliti.
+\newblock Asymptotic behavior of the "true" self-avoiding walk.
+\newblock {\em Phys. Rev. B}, 27:1635--1645, Feb 1983.
+
 \bibitem{Atashpendar_2016}
 Arshia Atashpendar, Tanja Schilling, and Thomas Voigtmann.
 \newblock Sequencing chess.
@@ -69,7 +74,8 @@ Götz Lehmann.
 
 \bibitem{Stoch}
 Matthias Löwe.
-\newblock \url{https://www.uni-muenster.de/stochastik/loewe/stochastik_ba_1fach.pdf}.
+\newblock
+  \url{https://www.uni-muenster.de/Stochastik/loewe/Stochastik_BA_1Fach.pdf}.
 
 \bibitem{doi:10.1063/1.1699114}
 Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.

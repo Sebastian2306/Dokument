@@ -25,45 +25,45 @@ Warning--empty journal in Stoch
 Warning--empty year in Stoch
 Warning--empty journal in Rougier
 Warning--empty year in Rougier
-You've used 22 entries,
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            629 strings with 6920 characters,
-and the built_in function-call counts, 6173 in all, are:
-= -- 574
-> -- 261
+            637 strings with 7082 characters,
+and the built_in function-call counts, 6552 in all, are:
+= -- 613
+> -- 279
 < -- 0
-+ -- 107
-- -- 84
-* -- 481
-:= -- 1053
-add.period$ -- 54
-call.type$ -- 22
-change.case$ -- 104
++ -- 114
+- -- 90
+* -- 513
+:= -- 1116
+add.period$ -- 57
+call.type$ -- 23
+change.case$ -- 110
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 234
-empty$ -- 503
-format.name$ -- 84
-if$ -- 1232
+cite$ -- 45
+duplicate$ -- 245
+empty$ -- 531
+format.name$ -- 90
+if$ -- 1308
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 23
-newline$ -- 101
-num.names$ -- 40
-pop$ -- 126
+int.to.str$ -- 23
+missing$ -- 24
+newline$ -- 106
+num.names$ -- 42
+pop$ -- 130
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 91
 quote$ -- 0
-skip$ -- 145
+skip$ -- 152
 stack$ -- 0
-substring$ -- 388
-swap$ -- 14
+substring$ -- 424
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 86
+type$ -- 90
 warning$ -- 22
-while$ -- 56
-width$ -- 24
-write$ -- 202
+while$ -- 60
+width$ -- 25
+write$ -- 213
 (There were 22 warnings)

@@ -233,4 +233,34 @@ Gaussian particle displacements.},
   title  = {https://www.uni-muenster.de/Stochastik/loewe/Stochastik_BA_1Fach.pdf},
 }
 
+@Article{GRASSBERGER1999251,
+  author   = {Peter Grassberger},
+  title    = {Conductivity exponent and backbone dimension in 2-d percolation},
+  journal  = {Physica A: Statistical Mechanics and its Applications},
+  year     = {1999},
+  volume   = {262},
+  number   = {3},
+  pages    = {251 - 263},
+  issn     = {0378-4371},
+  abstract = {We present high statistics simulations for 2-d percolation clusters in the “bus bar” geometry at the critical point, for site and for bond percolation. We measured their backbone sizes and electrical conductivities. For all sets of measurements we find large corrections to scaling, most of which do not seem to be described by single powers. Using single power terms for the corrections to scaling of the backbone masses, we would obtain fractal dimensions which are different for site and bond percolation, while the correct result is Db=1.6432±0.0008 for both. For the conductivity, the corrections to scaling are strongly non-monotonic for bond percolation. The exponent t′=t/ν is measured as 0.9826±0.0008, in disagreement with the Alexander–Orbach and other conjectures.},
+  doi      = {https://doi.org/10.1016/S0378-4371(98)00435-X},
+  keywords = {Backbone masses, Conductivity exponent, 2-D percolation},
+  url      = {http://www.sciencedirect.com/science/article/pii/S037843719800435X},
+}
+
+@Article{PhysRevB.27.1635,
+  author    = {Amit, Daniel J. and Parisi, G. and Peliti, L.},
+  title     = {Asymptotic behavior of the "true" self-avoiding walk},
+  journal   = {Phys. Rev. B},
+  year      = {1983},
+  volume    = {27},
+  pages     = {1635--1645},
+  month     = {Feb},
+  doi       = {10.1103/PhysRevB.27.1635},
+  issue     = {3},
+  numpages  = {0},
+  publisher = {American Physical Society},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevB.27.1635},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

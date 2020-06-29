@@ -156,7 +156,7 @@ Fraktal ist ein vom Mathematiker Benoît Mandelbrot 1975 geprägter Begriff (lat
 \\
 \noindent Perkolierende Cluster sind (unter Berücksichtigung der Gitterauflösung) ebenfalls fraktale Objekte. Ziel dieses Abschnitts ist es, die fraktale Dimension von perkolierenden Clustern zu bestimmen, um zu überprüfen ob meine Cluster dieselbe fraktale Dimension wie der Literaturwert haben. Ebenfalls soll die fraktale Dimension der perkolierenden Cluster mit der 'walk-dimension $d_w=1/\nu$' von Random-Walks auf ihnen verglichen werden. 
 \\
-Im folgenden Unterabschnitt wird eine (relativ simple) numerische Methode vorgestellt, mit welcher die fraktale Dimension des perkolierenden Clusters (und des Sierpinski-Dreiecks) bestimmt wird.
+Im folgenden Unterabschnitt wird eine (relativ simple) numerische Methode vorgestellt, mit welcher die fraktale Dimension des perkolierenden Clusters bestimmt wird.
 \subsection{Die Box-Counting-Methode}
 Zur Bestimmung der fraktalen Dimension wird die sogenannte Box-Counting-Methode verwendet.\cite{Box_counting_wiki}
 \\
@@ -289,9 +289,9 @@ Es wird nun eine Variante des Random-Walk betrachtet, welche zuvor noch nicht be
 
 \noindent Die Wahrscheinlichkeiten für den nächsten Zug werden gemäß:
 \begin{align}
-p_{j \leftarrow i} = \frac{exp({F_j})}{\sum_j exp({F_j})}
+p_{j \leftarrow i} = \frac{exp({F_j})}{\sum_k exp({F_k})}
 \end{align}
-berechnet, wobei $F_j$ die Menge der Nahrung an Gitterplatz $j$ ist, also $F$, falls Gitterplatz $j$ noch nicht besucht worden ist, und $0$, falls Gitterplatz $j$ zuvor bereits besucht wurde; $i$ ist dabei der Gitterplatz auf dem der Random-Walker aktuell ist. Dieses Modell scheint, insbesondere für $F \rightarrow \infty$, zuerst dem SAW sehr ähnlich zu sein, welcher auf dem Percolationsgitter schneller wird. Monte-Carlo-Simulationen dieses 'aktiven' Random-Walkers auf dem Perkolationsgitter zeigen, dass der Exponent kleiner ist, als der des normalen Random-Walkers auf dem Perkolationsgitter. Die nachstehende Abbildung zeigt Ergebnisse einer Monte-Carlo-Simulation mit je $100$ Walks auf $100$ Perkolationsgittern (Matrizen), wobei nicht auf diagonale Perkolation getestet worden ist, mit einer Größe von $1000 \times 1000$. Die Nahrung wird in meiner Simulation immer aus der Originalmatrix gelöscht und somit auch aus allen Kopien, welche durch die periodischen Randbedinungen entstehen. Diese Methode ist zwar nicht ganz korrekt (Quelle für finite-size-Effekte), führt aber zu keinem sichtbaren Fehler, solange die Wurzel aus dem $msd$ kleiner als die Boxgröße ist. Der Vorteil ist, dass diese Methode schneller ist und weniger Speicher benötigt. Die Perkolationsschwelle wurde wie zuvor als $p_c=0.592746$ angenommen.
+berechnet, wobei $F_j$ die Menge der Nahrung an Gitterplatz $j$ ist, also $F$, falls Gitterplatz $j$ noch nicht besucht worden ist, und $0$, falls Gitterplatz $j$ zuvor bereits besucht wurde; $i$ ist dabei der Gitterplatz auf dem der Random-Walker aktuell ist. Und der Index $k$ geht über die nächsten Nachbarn des Feldes $i$. Dieses Modell scheint, insbesondere für $F \rightarrow \infty$, zuerst dem SAW sehr ähnlich zu sein, welcher auf dem Percolationsgitter schneller wird. Monte-Carlo-Simulationen dieses 'aktiven' Random-Walkers auf dem Perkolationsgitter zeigen, dass der Exponent kleiner ist, als der des normalen Random-Walkers auf dem Perkolationsgitter. Die nachstehende Abbildung zeigt Ergebnisse einer Monte-Carlo-Simulation mit je $100$ Walks auf $100$ Perkolationsgittern (Matrizen), wobei nicht auf diagonale Perkolation getestet worden ist, mit einer Größe von $1000 \times 1000$. Die Nahrung wird in meiner Simulation immer aus der Originalmatrix gelöscht und somit auch aus allen Kopien, welche durch die periodischen Randbedinungen entstehen. Diese Methode ist zwar nicht ganz korrekt (Quelle für finite-size-Effekte), führt aber zu keinem sichtbaren Fehler, solange die Wurzel aus dem $msd$ kleiner als die Boxgröße ist. Der Vorteil ist, dass diese Methode schneller ist und weniger Speicher benötigt. Die Perkolationsschwelle wurde wie zuvor als $p_c=0.592746$ angenommen.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.9]{food.pdf}
@@ -625,7 +625,7 @@ In der nachfolgenden Graphik wird gezeigt, dass die obige Approximation vertretb
 Die einzelnen Random-Walker haben keine direkte Interaktion untereinander, es ist also insbesondere auch möglich, dass zwei (oder mehrere) Random-Walker auf der gleichen Position im Gitter sitzen. Der einzige Wechselwirkungseffekt, der bei diesem Modell vorliegt, ist, dass die Walker sich gegenseitig 'Nahrung wegessen' und somit die Umgebung eines anderen Walkers verändern und damit auch die Wahrscheinlichkeiten, wohin der nächste Schritt ausgeführt wird. Man redet in so einem Modell also von einer durch 'Chemotaxis' induzierten Wechselwirkung. Es wurden zwei Zugversionen getestet, einmal ziehen alle Random-Walker simultan und alternativ ziehen die Random-Walker sukzessive, also zuerst Random-Walker 1, gefolgt von Random-Walker 2 und so weiter. \\
 \noindent Die Wahrscheinlichkeiten, wohin ein Random-Walker zieht werden wie in \cite{doi:10.1063/1.4999485} gemäß:
 \begin{align}
-p_{j \leftarrow i} = \frac{exp({F_j})}{\sum_j exp({F_j})}
+p_{j \leftarrow i} = \frac{exp({F_j})}{\sum_k exp({F_k})}
 \label{Wkeiten}
 \end{align}
 berechnet, wobei $F_j$ die Menge der Nahrung an Gitterplatz $j$ ist.
@@ -1006,7 +1006,7 @@ Der ab Schritt 40 gemittelte (doppelte) Diffusionsexponent beträgt $2\nu = 0.67
 
 \noindent Dies war aber erneut das transiente $msd$, da der Prozess nicht 'equilibriert' war, also bei (nahezu) konstantem Nahrungslevel ablief. Nun soll ebenfalls das stationäre $msd$ vorgestellt werden. Dazu wird der Aufpunkt um 100 Schritte verschoben. Nach diesen 100 Schritten ist das Nahrungslevel (nahezu) konstant, man kann also sagen, dass das System 'equilibriert' ist.
 \\
-Man erhält nun ein deutlich 'schnelleren' Diffusionsexponenten von  $\sigma^2 \approx 0.001$ mit einer Varianz von  $\sigma^2 \approx 0.001$. Da dies ein stationäres $msd$ ist, kann man einen cross-over mit dem PAC-MAN Prozess ($2\nu \approx 0.66$) erwarten, welcher ebenfalls quasi stationär (bei Dichte $\rho=0$) bzw. unendlich lang transient ist, da der Nahrungsvorrat unendlich groß ist.
+Man erhält nun ein deutlich 'schnelleren' Diffusionsexponenten von  $\sigma^2 \approx 0.001$ mit einer Varianz von  $\sigma^2 \approx 0.001$. Da dies ein stationäres $msd$ ist, kann man einen cross-over mit dem PAC-MAN Prozess ($2\nu \approx 0.66$) erwarten, welcher bei Dichte $\rho=0$ unendlich lang transient ist, da der Nahrungsvorrat unendlich groß ist. Das bedeutet, dass der Diffusionsexponent zeitlich stabil sein soll, siehe dazu \cite{doi:10.1063/1.4999485} für Simulationen langer Zeiten).
 
 \begin{figure}[H]
 	\centering
@@ -1059,7 +1059,11 @@ Zunächst möchte ich mein 'Standardsystem', also 10\% Walkerdichte auf einem pe
 \\
 Um die $msd$s miteinander richtig vergleichen zu können, sollten allerdings equilibrierte, also mit verschobenem Aufpunkt berechnete, $msd$s betrachtet werden.
 \\
-Hier lässt sich erkennen, dass sich nahezu dasselbe Nahrungslevel und auch nahezu derselbe Diffusionsexponent einstellt. Es lässt sich also die äußerst plausible Vermutung aufstellen, dass das Nahrungslevel die Dynamik bestimmt. Plausibel ist diese Vermutung daher, da die einzelnen Walker die anderen Walker direkt garnicht spüren, sondern nur die Nahrung, somit ist die Dichte der Walker nur insofern entscheidend, wie sie sich auf das Nahrungslevel auswirkt.
+Hier lässt sich erkennen, dass sich nahezu dasselbe Nahrungslevel und auf mittlere Zeiten (100-1000 Schritte)auch nahezu derselbe Diffusionsexponent einstellt. Es lässt sich also die äußerst plausible Vermutung aufstellen, dass das Nahrungslevel die Dynamik bestimmt. Plausibel ist diese Vermutung daher, da die einzelnen Walker die anderen Walker direkt garnicht spüren, sondern nur die Nahrung, somit ist die Dichte der Walker nur insofern entscheidend, wie sie sich auf das Nahrungslevel auswirkt.
+\\
+Es ist allerdings nur eine naive Vermutung, welche auch im folgenden durch weitere Simulationen und eine Betrachtung des Grenzfalles unendlich vieler Auffüllversuche, wodurch sich ein dauerhaftes Nahrungslevel von 1 ergibt (so wie beim 'originalen' PAC-MAN Walk aus \cite{doi:10.1063/1.4999485} auch) sich als zu einfach und inkorrekt herausstellt.
+\\
+Dennoch ist es meiner Meinung nach erwähnenswert auch ein Beispiel vorzustellen wo ein ähnliches  Nahrungsniveau und unterschiedliche Dichten eine auch mittlere Zeitskala ähnliche Dynamik vorweisen.
 
 \begin{figure}[H]
 	\centering
@@ -1077,16 +1081,22 @@ Hier lässt sich erkennen, dass sich nahezu dasselbe Nahrungslevel und auch nahe
 
 \clearpage
 
-\noindent Diese zunächst plausibel erscheinende Vermutung, hat allerdings auch eine Schwachstelle.  Die Nahrung, welche über Auffüllversuche hinzugefügt wird ist an bereits besuchten Stellen, damit ist es nicht wie im originalen PAC-MAN Modell aus \cite{doi:10.1063/1.4999485}, wo sichergestellt wird, das der einzelne Walker immer neue Nahrung finden kann und immer neue Gitterplätze besucht. Eine hohe Dichte und viele Auffüllversuche bedeutet, dass wir quasi einfach immer alle Gitterplätze mit Nahung belegen un so einen $F=0$ Walk erhalten, mit dem Unterschied, dass man keine moves ablehnen muss. Wir erhalten also einfach den 'myopic ants' Fall. Eine geringe Dichte und seltenes Nachfüllen (was sich ergibt, da nur wenige Walker und damit wenige Versuche) ergibt hingegen tatsächlich wie Abbildung 7.3 zeigt eine PAC-MAN ähnliche Dynamik. Diese Behauptung sieht man sehr schön am nachfolgenden Vergleich von 1\% Dichte mit einem Auffüllversuch pro Walker (also etwa 40 Auffüllversuche pro MC-Schritt) versus 10\% Dichte und drei Auffüllversuche (etwa 1200 Auffüllversuche pro MC-Schritt). Man beachte auch besonders den ersten Schritt, in der 10\% drei Auffüllversuche Simulation wird dieser zu über 80\% akzeptiert, während die 1\% Simulation nur zu etwa 60\% akzeptiert (wie die 'blind ants'). Daraus kann man folgern, dass die 10\% drei Auffüllversuche viel häufiger benachbarte Gitterplätze mit Nahrung bei sich haben. Alle Ergebnisse beziehen sich auf das equilibrierte System.
+\noindent Diese zunächst plausibel erscheinende Vermutung, hat allerdings auch eine Schwachstelle.  Die Nahrung, welche über Auffüllversuche hinzugefügt wird ist an bereits besuchten Stellen, damit ist es nicht wie im originalen PAC-MAN Modell aus \cite{doi:10.1063/1.4999485}, wo sichergestellt wird, das der einzelne Walker immer neue Nahrung finden kann und immer neue Gitterplätze besucht. Eine hohe Dichte und viele Auffüllversuche bedeutet, dass wir quasi einfach immer alle Gitterplätze mit Nahung belegen un so einen $F=0$ Walk erhalten, mit dem Unterschied, dass man keine moves ablehnen muss. Wir erhalten also einfach den 'myopic ants' Fall. Eine geringe Dichte und seltenes Nachfüllen (was sich ergibt, da nur wenige Walker und damit wenige Versuche) ergibt hingegen tatsächlich wie Abbildung 7.3 zeigt eine PAC-MAN ähnliche Dynamik. Diese Behauptung sieht man sehr schön am nachfolgenden Vergleich von 1\% Dichte mit einem Auffüllversuch pro Walker (also etwa 40 Auffüllversuche pro MC-Schritt) versus 10\% Dichte und drei Auffüllversuche (etwa 1200 Auffüllversuche pro MC-Schritt). Man beachte auch besonders den ersten Schritt, in der 10\% drei Auffüllversuche Simulation wird dieser zu über 87\% akzeptiert, während die 1\% Simulation nur zu etwa 65\% akzeptiert ('blind ants': zu 59.2...\% ($p_c$)). Daraus kann man folgern, dass die 10\% drei Auffüllversuche viel häufiger benachbarte Gitterplätze mit Nahrung bei sich haben. Alle Ergebnisse beziehen sich auf das equilibrierte System.
+\\
+Es gilt anzumerken, dass die PAC-MAN Kurve immer von Beginn an gezeichnet ist, also bei Beginn des Prozesses, denn hier ist nicht klar was ein equilibriertes System ist. Auch hier ist weiterhin offen, in wie fern der Vergleich zum PAC-MAN Exponenten korrekt ist, da es kein stationärer Prozess im klassischen Sinne ist. Im Kapitel 6 wurde der PAC-MAN Prozess als unendlich lang transient aufgefasst/eingeordnet.
+\\
+\\
+Abschließend lässt sich also eindeutig sagen, dass man $(\rho,fl)$ nicht nur auf das foodlevel $fl$ abbilden kann und dieses die Dynamik kontrolliert. Es ist wichtig, dass die Walker immer woanders noch neue Nahrung finden um so mehr in die Sackgassen des perkolierenden Clusters 'gezogen' werden und nicht das einfach nur immer sie Nahrung vor sich haben. Ist immer alles mit Nahrungbelegt, so werden keine Felder mehr anderen gegenüber bevorzugt und es entsteht (nahezu, da eben die Wahrscheinlichkeit, auf einen geblockten Platz ziehen zu wollen und abgelehnt zu werden nicht ganz genau 0 ist) also die 'myopic ants' Dynamik.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.75]{10_1_vs_1_1.pdf}
+	\includegraphics[scale=0.72]{10_3_vs_1_1.pdf}
 	\caption{Equilibrierter Vergleich von 10\% drei Auffüllversuche gegen 1\% mit einem Auffüllversuch}
 \end{figure}
 
 \clearpage
 \chapter{Zusammenfassung/Ausblick}
+\section{Zusammenfassung}
 In dieser Arbeit wurden diverse Varianten des Random-Walks mit Nahrung simuliert. Der 'klassische' PAC-MAN Prozess aus \cite{doi:10.1063/1.4999485} wurde vorgestellt und erweitert auf viele, indirekt wechselwirkende Walker, auf der freien Ebene sowie auf dem perkolierenden Cluster.
 \\
 Zuerst wurde versucht, den 1D Random-Walk mit Nahrung analytisch zu lösen und eine vollständige Wahrscheinlichkeitsverteilung anzugeben. Hierbei wurde der 1D Walk mit Nahrung zur rechten Seite in einen Markov-Prozess eingebettet, in diesem gehört auch die Nahrungsfront zum Zustand. Es wurde die Mastergleichung aufgestellt und versucht diese in einen Kontinuumlimes zu einer partiellen Differentialgleichung zu überführen. Hierbei hat sich schon das Problem ergeben, dass zwischen der Wahrscheinlichkeit $p_{i,i}$ (Walker an Gitterplatz $i$ und Nahrungsfront auch an Gitterplatz $i$) und $p_i$ (Walker an Gitterplatz $i$ und Nahrungsfront an Gitterplatz $r \geq i$) unterschieden werden muss (siehe $p$ und $\hat{p}$). Zudem musste auch die Diskretisierung für die beiden Limits $F=0$ und $F=\infty$ unterschiedlich gewählt werden. Bei einer Wahl ergab sich im deterministischen $F=\infty$ Fall ein diffusiver Term (ähnlich wie bei der Lax-Stabilisation des 'FTCS'-Schemas). Ebenfalls konnte ich eine kombinatorische Formel herausarbeiten, welche den Fall $i=r$ (oder auch $x=r$ genannt) löst und diese für ein paar Beispiele anhand der Methode der Übergangsmatrix (von diskreten Markov-Prozessen) unterlegen (siehe dazu auch das Mathematica Notebook im Anhang).
@@ -1097,9 +1107,28 @@ Die Simulationen mit vielen Walkern (unendlich vielen, Dichte $\rho > 0$) haben 
 \\
 Solche transienten $msd$s finden sich auch in anderen Simulationen der Physik weicher Materie wie zum Beispiel in dem Paper von Zausch et al. \cite{Zausch_2008}, in dem die Dynamik kolloidaler Flüssigkeiten unter Scherung untersucht wird. Auch dort wird unter fortlaufender Scherung (transient) ab einem gewissen Punkt eine superdiffusive Dynamik beobachtet.
 \\
-Den Abschluss dieser Arbeit bilden Untersuchungen einer Variante des Prozesses mit vielen Walkern auf dem perkolierenden Cluster, in welcher immer versucht wird Nahrung nachzufüllen. Durch das Nachfüllen stellt sich ein gewisses Gleichgewicht ein, das Nahrungsniveau wird ungefähr konstant. Somit liegt dann ein stationärer Prozess vor, hier kann man aus dem $msd$ und dem Diffusionsexponenten die klassischen Schlussfolgerungen ziehen und Vergleiche anstellen.
+Den Abschluss dieser Arbeit bilden Untersuchungen einer Variante des Prozesses mit vielen Walkern auf dem perkolierenden Cluster, in welcher immer versucht wird Nahrung nachzufüllen. Durch das Nachfüllen stellt sich ein gewisses Gleichgewicht ein, das Nahrungsniveau wird ungefähr konstant. Somit liegt dann ein stationärer Prozess vor, hier kann man aus dem $msd$ und dem Diffusionsexponenten die klassischen Schlussfolgerungen ziehen und Vergleiche anstellen. Allerdings lässt auch hier sich kein 'fairer' Vergleich zum PAC-MAN Prozess auch \cite{doi:10.1063/1.4999485} führen, da dieser eine (unendlich lange) transiente Dynamik hat. Es wurde herausgearbeitet, welchen Einfluss das Nahrungslevel auf die Dynamik hat und wie dieses in Verbindung mit der Dichte der Walker steht.
+\\
+Das Nahrungslevel gibt nicht alleine -- wie vielleicht naiv zu erwarten wäre -- die Dynamik des Prozesses vor, obwohl jeder einzelne Walker nur Nahrung sieht und nicht die anderen Walker. Werden viele Auffüllversuche getätigt und somit ein hohes Nahrungslevel verursacht, so erhält man eine verschiedene Dynamik zu der des PAC-MAN Prozess und Prozessen mit sehr geringer Dichte, welche ja auch bei nur einem Nachfüllversuch pro Walker ein sehr hohes Nahrungslevel aufweisen wie Abbildung \ref{foodlevel_vs_dens} zeigt. Durch die Vielen Auffüllversuche versorgt man immer jeden Walker nahezu dauerhaft mit Nahrung und nähert sich somit dem 'myopic ants' Fall, wo der Walker mit gleichen Wahrscheinlichkeiten Felder des perkolierenden Clusters sieht und nie versucht auf geblockte Felder zu ziehen.
 
+\newpage
 
+\section{Ausblick}
+Das PAC-MAN Modell und diese Variationen eines Random-Walks, welcher bereits besuchte Plätze versucht zu vermeiden, sind ein schönes Modell um 'Chemotaxis-gesteuerte' Dynamik zu simulieren. Hier wurden allerdings alle Simulationen auf einem quadratischen Gitter oder dem perkolierenden Cluster eingebettet im quadratischen Gitter durchgeführt. Es würde sich anbieten Simulationen auf anderen Gittern, welche mehr oder weniger nächste Nachbarn haben zu Simulieren, die die Anzahl der nächsten Nachbarn die Dynamik solcher Prozesse beeinflussen kann.
+\\
+Verknüpft mit der Anzahl der Nachbarn ist die (Hausdorff-)Dimension des Gitters, hier gibt es das Beispiel des 'self-avoiding walks' (SAW), welcher eine kritische Dimension von $d_c=4$ hat, d.h. in einem 4D (und höher dimensionalen) Gitter wird dieser wieder rein diffusiv. Im Paper von Amit et al. \cite{PhysRevB.27.1635} wird sogar nahegelegt, die kritische Dimension des 'true self-avoiding walks' sei genau $d_c=2$. Der 'true self-avoiding walk' ist dem hier vorgeschlagenen Modell sehr ähnlich und hat die Hüpfwahrscheinlichkeiten
+\begin{align*}
+p_{j \leftarrow i} = \frac{exp({-n_j u})}{\sum_k exp({-n_k u})}\ ,
+\end{align*}
+wobei $n_j$ die Anzahl der Besuche auf Feld $j$ ist und der Parameter $u>0$ dies Stärke der Selbstmeidung angibt, sehr ähnlich zu unserem $F$. Der Summationsindex $k$ läuft über die nächsten Nachbarn des aktuell besuchten Feldes $i$.
+\\
+Meine Simulationen und auch die aus \cite{doi:10.1063/1.4999485} haben größtenteils auf dem perkolierenden Cluster stattgefunden, welcher eine Dimension kleiner $d_c=2$ hat. Es würde sich also anbieten die PAC-MAN Dynamik aus \cite{doi:10.1063/1.4999485} in einem Gebilde mit einer Dimension $2<d<3$ auch durchzuführen um mögliche Unterschiede zum oben vorgestellten TSAW herauszuarbeiten.
+\\
+Ebenfalls wäre es spannend, den Walk mit Auffüllversuchen auch mal in der Ebene zu simulieren um ein stationäres $msd$ in $d=2$ zu erhalten. In dieser Arbeit wurde nur der transiente Prozess in der Ebene simuliert, wo -- wie bereits diskutiert -- das $msd$ und der Diffusionsexponent mit großer Vorsicht zu interpretieren sind.
+\\
+Zudem wird in dieser Arbeit und auch in \cite{doi:10.1063/1.4999485} immer, ohne es zu beweisen, von einem Potenzgesetz für das $msd$ ausgegangen. Man könnte anhand von renormierungsgruppentheoretischen Methoden (RG) versuchen, die Existenz eines solchen Potenzgesetzes zu beweisen. Es wird auch in \cite{doi:10.1063/1.4999485} nahegelegt, dass es einen Kreuzungspunkt von $F=0$ und PAC-MAN Dynamik geben muss. Man könnte versuchen diesen durch extrem lange Simulationen nachzuweisen und vorallem auch zu interpretieren, denn dieser weißt auf eine bestimmte charakteristische Länge im Prozess hin. Auch ist es möglich, dass man eine Anpassung an die $F=0$ Dynamik findet und der Prozess nicht, wie hier vermutet, unendlich lange transient ist, es wäre auch dann spannend diese Länge/Schrittzahl zu interpretieren.
+\\
+Desweiteren bietet es sich für analytisch interessierte Physiker oder angewandte Mathematiker an, den austehenden Fall $r>x$ im 1D Modell zu lösen.
 
 \appendix
 \chapter{Mathematica Notebook zum 1D Walk}
@@ -1107,6 +1136,12 @@ In diesem Anhang möchte ich ein Mathematica Notebook vorstellen, welches die Im
 	
 \includepdf[pages=1-2, scale=0.8]{foodwalker1d.pdf}
 
+\chapter*{Danksagung}
+Ich möchte mich bei meinem Büronachbarn (und Mitbetreuer) Julian Reichert für die viele technische Unterstützung und physikalische Diskussionen, die mich stets weitergebracht haben, bedanken. 
+\\
+Zudem bedanke ich mich bei dem Zweitprüfer dieser Arbeit PD Dr. Götz Lehmann, von welchem ich viel über numerische Simulationen und Programmierung für physikalische Fragestellungen in seinen beiden Vorlesungen 'Numerical Simulations I/II' lernen durfte.
+\\
+Den größten Dank möchte ich meinem Betreuer Prof. Dr. Thomas Voigtmann aussprechen, welcher mich durch seine Vorlesung 'Stochastic Processes in Physics' komplett für die (computergestütze) Physik der weicher Materie und der stochastischen Prozesse begeistert hat und zu dieser Arbeit geführt hat. Seine Unterstützung bei dieser Arbeit war unglaublich, er hat mir geholfen wo er konnte und zugleich die Freiheit gegeben zu probieren und zu testen was auch immer mich interessierte. Ich habe die physikalischen Diskussionen immer sehr genossen und konnte jedes mal extrem viel neues lernen.
 
 
 \bibliographystyle{plain}

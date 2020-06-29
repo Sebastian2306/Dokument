@@ -59,5 +59,7 @@
 \contentsline {subsection}{\numberline {7.2.2}1\% Walkerdichte}{85}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Vergleich}{87}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}Mehrere Auff\IeC {\"u}llversuche pro Walker}{88}{section.7.3}
-\contentsline {chapter}{\numberline {8}Zusammenfassung/Ausblick}{92}{chapter.8}
-\contentsline {chapter}{\numberline {A}Mathematica Notebook zum 1D Walk}{94}{appendix.A}
+\contentsline {chapter}{\numberline {8}Zusammenfassung/Ausblick}{93}{chapter.8}
+\contentsline {section}{\numberline {8.1}Zusammenfassung}{93}{section.8.1}
+\contentsline {section}{\numberline {8.2}Ausblick}{95}{section.8.2}
+\contentsline {chapter}{\numberline {A}Mathematica Notebook zum 1D Walk}{97}{appendix.A}
