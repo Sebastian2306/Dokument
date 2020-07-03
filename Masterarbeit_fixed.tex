@@ -970,7 +970,7 @@ In Kapitel 5 wurden ähnliche Resultate gefunden, auch hier konnte man finden, d
 
 \section{Einleitung/Idee}
 
-Die vorangegangen Kapitel haben (numerisch) gezeigt, dass $msd$s des PAC-MAN Prozesses und seiner weiteren Varianten transient sind. Dieses transiente Verhalten wird durch das 'leerfressen' der Nahrung verursacht. Man kann also für Dichten $\rho > 0$ nur eine dauerhafte Dynamik erhalten (quasi eine unendlich lange Transiente, wie in \cite{doi:10.1063/1.4999485}), in dem man künstlich, also durch zufälliges Nachfüllen, einen annähernd konstanten Nahrungsvorrat schafft.
+Die vorangegangen Kapitel haben (numerisch) gezeigt, dass $msd$s des PAC-MAN Prozesses und seiner weiteren Varianten transient sind. Dieses transiente Verhalten wird durch das 'leerfressen' der Nahrung verursacht. Man kann also für Dichten $\rho > 0$ nur eine dauerhafte Dynamik erhalten (stationär im Gegensatz zu einer unendlich lange Transiente, wie in \cite{doi:10.1063/1.4999485}), in dem man durch zufälliges Nachfüllen, einen annähernd konstanten Nahrungsvorrat schafft.
 \\
 Hier wird die offensichtliche Variante gewählt, dass für jeden Walker in der Simulationsbox nach jedem Schritt einmal versucht wird, eine neue Nahrungseinheit $F$ zu platzieren. Dazu wird nach jedem Schritt pro Walker eine zufällige Position (auf dem perkolierenden Cluster natürlich) gewählt und, falls keine Nahrungseinheit vorhanden ist, mit Nahrung aufgefüllt. So wird sich je nach Walkerdichte immer ein gewisser Nahrungsvorrat einstellen. Ist die Nahrungsmatrix schon stark geleert, so werden viele Auffüllversuche akzeptiert; bei hingegen stark gefüllter Nahrungsmatrix werden die Auffüllveruche mit hoher Wahrscheinlichkeit abgelehnt. Dies entspricht also einer Art konstantes chemisches Potential Simulation für die Nahrung.
 \\
@@ -1006,11 +1006,11 @@ Der ab Schritt 40 gemittelte (doppelte) Diffusionsexponent beträgt $2\nu = 0.67
 
 \noindent Dies war aber erneut das transiente $msd$, da der Prozess nicht 'equilibriert' war, also bei (nahezu) konstantem Nahrungslevel ablief. Nun soll ebenfalls das stationäre $msd$ vorgestellt werden. Dazu wird der Aufpunkt um 100 Schritte verschoben. Nach diesen 100 Schritten ist das Nahrungslevel (nahezu) konstant, man kann also sagen, dass das System 'equilibriert' ist.
 \\
-Man erhält nun ein deutlich 'schnelleren' Diffusionsexponenten von  $\sigma^2 \approx 0.001$ mit einer Varianz von  $\sigma^2 \approx 0.001$. Da dies ein stationäres $msd$ ist, kann man einen cross-over mit dem PAC-MAN Prozess ($2\nu \approx 0.66$) erwarten, welcher bei Dichte $\rho=0$ unendlich lang transient ist, da der Nahrungsvorrat unendlich groß ist. Das bedeutet, dass der Diffusionsexponent zeitlich stabil sein soll, siehe dazu \cite{doi:10.1063/1.4999485} für Simulationen langer Zeiten).
+Man erhält nun ein deutlich 'schnelleren' Diffusionsexponenten von  $2\nu = 0.760$ mit einer Varianz von  $\sigma^2 \approx 0.001$. Da dies ein stationäres $msd$ ist, kann man einen Schnittpunkt mit dem $msd$ des PAC-MAN Prozess ($2\nu \approx 0.66$) erwarten, welcher bei Dichte $\rho=0$ unendlich lang transient ist, da der Nahrungsvorrat unendlich groß ist. Das bedeutet, dass der Diffusionsexponent zeitlich stabil sein soll, siehe dazu \cite{doi:10.1063/1.4999485} für Simulationen langer Zeiten). (Man verlängere im Kopf die blaue und die grüne $msd$ Linie). Allerdings ist die Vergleichbarkeit des transienten PAC-MAN Prozesses mit dem equilibrierten (dadurch nun stationär) Prozess mit Auffüllen fraglich.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.75]{new_food10_shifted100.pdf}
+	\includegraphics[scale=0.7]{new_food10_shifted100_new.pdf}
 	\caption{Ergebniss der equilibrierten MC-Simulation (100 Schritte equilibriert) von 10\% Walkerdichte auf dem perkolierenden Cluster mit einem Auffüllversuch pro Walker und Zeitschritt}
 \end{figure}
 \clearpage
@@ -1025,12 +1025,22 @@ Wie aus den Ergebnissen bei 10\% Walkerdichte zu erwarten war, ergibt sich erneu
 Die Nahrung stellt sich oberhalb von 75\% ein und scheint etwas stärker als im Fall von 10\% Walkerdichte zu schwanken. Die Schwankungen lassen sich daran erklären, dass weniger Auffüllversuche unternommen werden und so die Anzahl der angenommenen Auffüllversuche stärker schwankt.
 \\
 \\
-Erneut kann man einen Diffusionsexponenten während der annähernd konstanten Nahrung bestimmen, dazu mittel ich die Diffusionsexponenten ab dem 495. Schritt (dieser Speicherpunkt liegt auf meinem logarithmischen Grid) und erhält einen Mittelwert von $2\nu = 0.607$ bei einer Varianz von $\sigma^2 \approx 0.01 $.
+Erneut kann man einen Diffusionsexponenten während der annähernd konstanten Nahrung bestimmen, dazu mittel ich die Diffusionsexponenten ab dem 95. Schritt (dieser Speicherpunkt liegt auf meinem logarithmischen Grid) und erhält einen Mittelwert von $2\nu = 0.69$ bei einer Varianz von $\sigma^2 \approx 0.01 $.
+\\
+\\
+Analog zum vorherigen Kapitel mit 10\% Walkerdichte zeigt eine weitere Abbildung die 'equlibrierte' Simulation, also die Daten mit einer Verschiebung des Aufpunktes um 400 Schritte.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.75]{1percent_new_food1.pdf}
+	\includegraphics[scale=0.75]{1percent_new_food_new.pdf}
 	\caption{Ergebniss der MC-Simulation von 1\% Walkerdichte auf dem perkolierenden Cluster mit einem Auffüllversuch pro Walker und Zeitschritt}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{1percent_on_pc_new_food_shifted400_long.pdf}
+	\caption{Ergebniss der equilibrierten (Aufpunkt um 400 Schritte verschoben) MC-Simulation von 1\% Walkerdichte auf dem perkolierenden Cluster mit einem Auffüllversuch pro Walker und Zeitschritt}
 \end{figure}
 
 \clearpage
@@ -1057,13 +1067,14 @@ In diesem Kapitel soll untersucht werden, in wie weit das Nahrungslevel den domi
 \\
 Zunächst möchte ich mein 'Standardsystem', also 10\% Walkerdichte auf einem perkolierenden Cluster in einer $100\times100$ Matrix, mit zwei Auffüllversuchen pro Walker simulieren. Hierbei wurden wie zuvor 100 Läufe auuf 10 Matrizen simuliert. Nachfolgende Graphik zeigt, dass sich ein höheres Nahrungslevel als zu zuvor, bei einem Auffüllversuch pro Walker, ergibt. Man findet ein Nahrungslevel von ungefähr 67\%, aus der obigen Graphik \ref{foodlevel_vs_dens} bei einem Auffüllversuch und 2\% Walkerdichte. Auch die Simulationsergebnisse der 2\% Walkerdichte, mit einem Auffüllversuch pro Walker, werden unten gezeigt.
 \\
+Ebenfalls soll das System mit 10\% Walkerdichte und drei Auffüllversuchen pro Walker mit dem System bei 1\% Walkerdichte und einem Auffüllversuch pro Walker verglichen werden. Auch hier stellen sich nahezu gleiche foodlevel ein.
+\\
 Um die $msd$s miteinander richtig vergleichen zu können, sollten allerdings equilibrierte, also mit verschobenem Aufpunkt berechnete, $msd$s betrachtet werden.
 \\
-Hier lässt sich erkennen, dass sich nahezu dasselbe Nahrungslevel und auf mittlere Zeiten (100-1000 Schritte)auch nahezu derselbe Diffusionsexponent einstellt. Es lässt sich also die äußerst plausible Vermutung aufstellen, dass das Nahrungslevel die Dynamik bestimmt. Plausibel ist diese Vermutung daher, da die einzelnen Walker die anderen Walker direkt garnicht spüren, sondern nur die Nahrung, somit ist die Dichte der Walker nur insofern entscheidend, wie sie sich auf das Nahrungslevel auswirkt.
+Es lässt sich naiv die Vermutung aufstellen, dass das Nahrungslevel die Dynamik bestimmt. Plausibel ist diese Vermutung daher, da die einzelnen Walker die anderen Walker direkt garnicht spüren, sondern nur die Nahrung, somit ist die Dichte der Walker nur insofern entscheidend, wie sie sich auf das Nahrungslevel auswirkt.
 \\
-Es ist allerdings nur eine naive Vermutung, welche auch im folgenden durch weitere Simulationen und eine Betrachtung des Grenzfalles unendlich vieler Auffüllversuche, wodurch sich ein dauerhaftes Nahrungslevel von 1 ergibt (so wie beim 'originalen' PAC-MAN Walk aus \cite{doi:10.1063/1.4999485} auch) sich als zu einfach und inkorrekt herausstellt.
-\\
-Dennoch ist es meiner Meinung nach erwähnenswert auch ein Beispiel vorzustellen wo ein ähnliches  Nahrungsniveau und unterschiedliche Dichten eine auch mittlere Zeitskala ähnliche Dynamik vorweisen.
+Die Vermutung wird sich allerdings durch Simulationen und einer Betrachtung des Grenzfalles unendlich vieler Auffüllversuche, wodurch sich ein dauerhaftes Nahrungslevel von 1 ergibt (so wie beim 'originalen' PAC-MAN Walk aus \cite{doi:10.1063/1.4999485} auch) als zu einfach und inkorrekt herausstellen.
+
 
 \begin{figure}[H]
 	\centering
@@ -1075,26 +1086,41 @@ Dennoch ist es meiner Meinung nach erwähnenswert auch ein Beispiel vorzustellen
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.75]{10_2_vs_2_1.pdf}
+	\includegraphics[scale=0.7]{10_2_vs_2_1_new.pdf}
 	\caption{Equilibrierter Vergleich von 10\% zwei Auffüllversuche gegen 2\% mit einem Auffüllversuch}
 \end{figure}
 
 \clearpage
 
-\noindent Diese zunächst plausibel erscheinende Vermutung, hat allerdings auch eine Schwachstelle.  Die Nahrung, welche über Auffüllversuche hinzugefügt wird ist an bereits besuchten Stellen, damit ist es nicht wie im originalen PAC-MAN Modell aus \cite{doi:10.1063/1.4999485}, wo sichergestellt wird, das der einzelne Walker immer neue Nahrung finden kann und immer neue Gitterplätze besucht. Eine hohe Dichte und viele Auffüllversuche bedeutet, dass wir quasi einfach immer alle Gitterplätze mit Nahung belegen un so einen $F=0$ Walk erhalten, mit dem Unterschied, dass man keine moves ablehnen muss. Wir erhalten also einfach den 'myopic ants' Fall. Eine geringe Dichte und seltenes Nachfüllen (was sich ergibt, da nur wenige Walker und damit wenige Versuche) ergibt hingegen tatsächlich wie Abbildung 7.3 zeigt eine PAC-MAN ähnliche Dynamik. Diese Behauptung sieht man sehr schön am nachfolgenden Vergleich von 1\% Dichte mit einem Auffüllversuch pro Walker (also etwa 40 Auffüllversuche pro MC-Schritt) versus 10\% Dichte und drei Auffüllversuche (etwa 1200 Auffüllversuche pro MC-Schritt). Man beachte auch besonders den ersten Schritt, in der 10\% drei Auffüllversuche Simulation wird dieser zu über 87\% akzeptiert, während die 1\% Simulation nur zu etwa 65\% akzeptiert ('blind ants': zu 59.2...\% ($p_c$)). Daraus kann man folgern, dass die 10\% drei Auffüllversuche viel häufiger benachbarte Gitterplätze mit Nahrung bei sich haben. Alle Ergebnisse beziehen sich auf das equilibrierte System.
+\noindent Die Nahrung, welche über Auffüllversuche hinzugefügt wird ist an bereits besuchten Stellen, damit ist es nicht wie im originalen PAC-MAN Modell aus \cite{doi:10.1063/1.4999485}, wo sichergestellt wird, das der einzelne Walker immer neue Nahrung finden kann und immer neue Gitterplätze besucht. Eine hohe Dichte und viele Auffüllversuche bedeutet, dass wir quasi einfach immer alle Gitterplätze mit Nahung belegen un so einen $F=0$ Walk erhalten, mit dem Unterschied, dass man keine moves ablehnen muss. Wir erhalten also einfach den 'myopic ants' Fall. Eine geringe Dichte und seltenes Nachfüllen (was sich ergibt, da nur wenige Walker und damit wenige Versuche) ergibt hingegen tatsächlich wie Abbildung 7.3 zeigt eine PAC-MAN ähnliche Dynamik. Diese Behauptung sieht man sehr schön am nachfolgenden Vergleich von 1\% Dichte mit einem Auffüllversuch pro Walker (also etwa 40 Auffüllversuche pro MC-Schritt) versus 10\% Dichte und drei Auffüllversuche (etwa 1200 Auffüllversuche pro MC-Schritt). Man beachte auch besonders den ersten Schritt, in der 10\% drei Auffüllversuche Simulation wird dieser zu über 87\% akzeptiert, während die 1\% Simulation nur zu etwa 65\% akzeptiert ('blind ants': zu 59.2...\% ($p_c$)). Daraus kann man folgern, dass die 10\% drei Auffüllversuche viel häufiger benachbarte Gitterplätze mit Nahrung bei sich haben. Alle Ergebnisse beziehen sich auf das equilibrierte System.
 \\
 Es gilt anzumerken, dass die PAC-MAN Kurve immer von Beginn an gezeichnet ist, also bei Beginn des Prozesses, denn hier ist nicht klar was ein equilibriertes System ist. Auch hier ist weiterhin offen, in wie fern der Vergleich zum PAC-MAN Exponenten korrekt ist, da es kein stationärer Prozess im klassischen Sinne ist. Im Kapitel 6 wurde der PAC-MAN Prozess als unendlich lang transient aufgefasst/eingeordnet.
 \\
 \\
-Abschließend lässt sich also eindeutig sagen, dass man $(\rho,fl)$ nicht nur auf das foodlevel $fl$ abbilden kann und dieses die Dynamik kontrolliert. Es ist wichtig, dass die Walker immer woanders noch neue Nahrung finden um so mehr in die Sackgassen des perkolierenden Clusters 'gezogen' werden und nicht das einfach nur immer sie Nahrung vor sich haben. Ist immer alles mit Nahrungbelegt, so werden keine Felder mehr anderen gegenüber bevorzugt und es entsteht (nahezu, da eben die Wahrscheinlichkeit, auf einen geblockten Platz ziehen zu wollen und abgelehnt zu werden nicht ganz genau 0 ist) also die 'myopic ants' Dynamik.
+Abschließend lässt sich also eindeutig sagen, dass man $(\rho,fl)$ nicht nur auf das foodlevel $fl$ abbilden kann und dieses die Dynamik kontrolliert. Es ist wichtig, dass die Walker immer woanders noch neue Nahrung finden um so mehr in die Sackgassen des perkolierenden Clusters 'gezogen' werden und nicht das einfach nur immer sie Nahrung vor sich haben. Ist immer alles mit Nahrungbelegt, so werden keine Felder mehr anderen gegenüber bevorzugt und es entsteht (nahezu, da eben die Wahrscheinlichkeit, auf einen geblockten Platz ziehen zu wollen und abgelehnt zu werden nicht ganz genau 0 ist) also die 'myopic ants' Dynamik. Dies sieht man an dem Simulationsergebniss von 10\% Walkern mit 20 Auffüllversuchen pro Walker, das $msd$ ist exakt parallel zu dem bei $F=0$, also den 'blind ants'.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.72]{10_3_vs_1_1.pdf}
+	\includegraphics[scale=0.7]{10_3_vs_1_1_new.pdf}
 	\caption{Equilibrierter Vergleich von 10\% drei Auffüllversuche gegen 1\% mit einem Auffüllversuch}
 \end{figure}
 
 \clearpage
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{fullfood.pdf}
+	\caption{10\% Walker mit 20 Auffüllversuchen pro Walker gegenüber den 'blind ants' bei $F=0$}
+\end{figure}
+
+\clearpage
+
+\section{Kurzzusammenfassung dieses Kapitels}
+Der Prozess mit Nachfüllen hat eine Transient, dann ein cross-over Zeit zu einem stationären Prozess, was wir daraus schließen, dass das foodlevel konstant wird. Durch Wechsel des Aufpunktes in den statiönaren Bereich des Prozesses, ähnlich wie eine 'Equilibrierung' bei MD-Simulationen, erhalten wir ein stationäres $msd$.
+\\
+Die stationäre Dynamik hat einen nicht-trivialen 'neuen' Exponenten, der von der Dichte, der Anzahl der Auffüllversuche pro Walker und auch von $F$ abhängig ist, denn für $F\rightarrow 0$ erhalten wir 'blind ants'.
+\\
+Hier ergibt erneut der Limes $\rho \rightarrow 0$ den PAC-MAN Fall (bei gleichem $F$ natürlich). In diesem Limes sind auch die Nachfüllversuche dementsprechend irrelevant, da diese mit Wahrscheinlichkeit 0 angenommen werden. Dies liegt daran, dass das immer nur endlich viele Felder aus unendlich vielen nicht mit Nahrung belegt sind.
 \chapter{Zusammenfassung/Ausblick}
 \section{Zusammenfassung}
 In dieser Arbeit wurden diverse Varianten des Random-Walks mit Nahrung simuliert. Der 'klassische' PAC-MAN Prozess aus \cite{doi:10.1063/1.4999485} wurde vorgestellt und erweitert auf viele, indirekt wechselwirkende Walker, auf der freien Ebene sowie auf dem perkolierenden Cluster.
